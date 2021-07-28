@@ -18,7 +18,8 @@ public class MainScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState(currentState.next);
+        bodyText.text = DisplayText(currentState.next);
     }
 
     // displays game text along with next options
