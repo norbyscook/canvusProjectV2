@@ -21,6 +21,7 @@ public class MainScript : MonoBehaviour
         
     }
 
+    // displays game text along with next options
     string DisplayText(StatesTemplate[] nextStates)
     {
         // store current state text into variable
