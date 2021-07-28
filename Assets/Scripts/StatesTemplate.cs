@@ -6,7 +6,7 @@ using UnityEngine;
 abstract public class StatesTemplate : ScriptableObject
 {
     // the text for each of the states
-    [TextArea(10, 14)][SerializeField] string stateText;
+    [TextArea(10, 14)][SerializeField] string stateStory;
 
     // next possible states player can go to
     [SerializeField] StatesTemplate[] nextStates;
@@ -25,9 +25,9 @@ abstract public class StatesTemplate : ScriptableObject
     }
 
     // property to retrieve text of the state
-    public string text
+    public string story
     {
-        get { return stateText; }
+        get { return stateStory; }
     }
 
     // property to retrieve next possible states
