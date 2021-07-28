@@ -19,19 +19,19 @@ abstract public class StatesTemplate : ScriptableObject
     */
     protected string locationName;
 
-    public string getLocationName
+    public string location
     {
         get { return locationName; }
     }
 
     // property to retrieve text of the state
-    public string getText
+    public string text
     {
         get { return stateText; }
     }
 
     // property to retrieve next possible states
-    public StatesTemplate[] getNextStates
+    public StatesTemplate[] next
     {
         get { return nextStates; }
     }

@@ -12,7 +12,7 @@ public class MainScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bodyText.text = DisplayText(currentState.getNextStates);
+        bodyText.text = DisplayText(currentState.next);
     }
 
     // Update is called once per frame
@@ -25,14 +25,31 @@ public class MainScript : MonoBehaviour
     string DisplayText(StatesTemplate[] nextStates)
     {
         // store current state text into variable
-        string text = currentState.getText;
+        string text = currentState.text;
 
         // for each location the player gets to go to, add that option to the game text
         for (int i = 0; i < nextStates.Length; i++)
         {
-            text += "\npress " + (i + 1) + " to go to " + nextStates[i].getLocationName;
+            text += "\npress " + (i + 1) + " to go to " + nextStates[i].location;
         }
         return text;
+    }
+
+    // switch to next states based on user input
+    void ManageState(StatesTemplate[] nextState)
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            currentState = currentState.next[0];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            currentState = currentState.next[1];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
+        {
+            currentState = currentState.next[2];
+        }
     }
 
 
