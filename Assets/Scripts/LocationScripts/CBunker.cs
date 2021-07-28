@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for bunker
 [CreateAssetMenu(menuName = "GameLocations/C states")]
-public class CStates : StatesTemplate
+public class CBunker : StatesTemplate
 {
 
 }

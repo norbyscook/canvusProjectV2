@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba91dc9230cbd364a80457c7e1c9fef2, type: 3}
-  m_Name: IntroTwo
+  m_Name: 002Intro
   m_EditorClassIdentifier: 
   stateText: 'You are heading to a ghost town. However this is not just any ghost
     town. You heard from a stranger once that an ancient force lies beneath this

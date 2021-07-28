@@ -10,14 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba91dc9230cbd364a80457c7e1c9fef2, type: 3}
-  m_Name: IntroOne
+  m_Name: 000MainMenu
   m_EditorClassIdentifier: 
-  stateText: 'Decades into the climate crisis, humanity is trying to find a way to
-    survive in the hot desolate world.
-
-    Many have died over the decades. Survivors
-    have made shelters and villages out of the remnants of the past.
-
-'
-  nextStates:
-  - {fileID: 11400000, guid: 3b582caf87dd4254f8e31dee86f0843e, type: 2}
+  stateStory: 
+  nextStates: []

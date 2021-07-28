@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abae580bf0dde5049b04756637dfcb3e, type: 3}
-  m_Name: A1
+  m_Script: {fileID: 11500000, guid: ba91dc9230cbd364a80457c7e1c9fef2, type: 3}
+  m_Name: 003End
   m_EditorClassIdentifier: 
-  stateText: 'You approach the entrance of the town slowly. The gate is worn out
-    and not very tall. '
-  nextStates:
-  - {fileID: 11400000, guid: 17abff521f3e4aa4788372176636e44a, type: 2}
+  stateStory: 
+  nextStates: []
