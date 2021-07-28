@@ -29,7 +29,7 @@ public class MainScript : MonoBehaviour
         // for each location the player gets to go to, add that option to the game text
         for (int i = 0; i < nextStates.Length; i++)
         {
-            text += "\npress" + (i + 1) + "to go to " + nextStates[i].getLocationName;
+            text += "\npress " + (i + 1) + " to go to " + nextStates[i].getLocationName;
         }
         return text;
     }
