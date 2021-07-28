@@ -18,4 +18,5 @@ MonoBehaviour:
     from this broken world. Your village has caught one of the deadly diseases that
     recently spread. Your younger brother, who is now your only family member, has
     also caught the disease. You are desperate to find a cure. '
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 62957339b968add4ca92fce600972cf9, type: 2}
