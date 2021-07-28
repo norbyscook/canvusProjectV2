@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for the entrance to ghost town
-[CreateAssetMenu(menuName = "A states")]
+[CreateAssetMenu(menuName = "GameLocations/A states")]
 public class AStates : StatesTemplate
 {
 

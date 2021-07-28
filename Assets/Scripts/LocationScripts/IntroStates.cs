@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for the story intro
-[CreateAssetMenu(menuName = "IntroStates")]
+[CreateAssetMenu(menuName = "GameLocations/IntroStates")]
 public class IntroStates : StatesTemplate
 {
     public IntroStates()

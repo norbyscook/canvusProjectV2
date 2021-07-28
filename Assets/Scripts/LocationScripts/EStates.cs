@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for locked door
-[CreateAssetMenu(menuName = "E states")]
+[CreateAssetMenu(menuName = "GameLocations/E states")]
 public class EStates : StatesTemplate
 {
 

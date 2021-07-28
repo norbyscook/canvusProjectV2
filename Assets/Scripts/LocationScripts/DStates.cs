@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for storage shack
-[CreateAssetMenu(menuName = "D states")]
+[CreateAssetMenu(menuName = "GameLocations/D states")]
 public class DStates : StatesTemplate
 {
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for main street
-[CreateAssetMenu(menuName = "B states")]
+[CreateAssetMenu(menuName = "GameLocations/B states")]
 public class BStates : StatesTemplate
 {
 

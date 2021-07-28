@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for secret door
-[CreateAssetMenu(menuName = "H states")]
+[CreateAssetMenu(menuName = "GameLocations/H states")]
 public class HStates : StatesTemplate
 {
 

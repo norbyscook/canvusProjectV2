@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for bunker
-[CreateAssetMenu(menuName = "C states")]
+[CreateAssetMenu(menuName = "GameLocations/C states")]
 public class CStates : StatesTemplate
 {
 
