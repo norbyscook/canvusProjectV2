@@ -17,7 +17,7 @@ abstract public class StatesTemplate : ScriptableObject
     Each location can have different scriptable objects,
     representing the different states of that location
     */
-    protected string locationName = "dd";
+    protected string locationName;
 
     public string getLocationName
     {

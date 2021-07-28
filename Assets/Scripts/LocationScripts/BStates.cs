@@ -6,5 +6,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "GameLocations/B states")]
 public class BStates : StatesTemplate
 {
-
+    public BStates()
+    {
+        locationName = "Main Street";
+    }
 }
