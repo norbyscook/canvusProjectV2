@@ -7,7 +7,7 @@ public class MainScript : MonoBehaviour
 {
     // reference to text being displayed
     [SerializeField] Text bodyText;
-    [SerializeField] StatesTemplate currentState;
+    [SerializeField] StatesTextTemplate currentState;
     
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class MainScript : MonoBehaviour
     }
 
     // displays game text along with next options
-    string GetDisplayText(StatesTemplate[] nextStates)
+    string GetDisplayText(StatesTextTemplate[] nextStates)
     {
         // store current state text into variable
         string text = currentState.story;
@@ -37,7 +37,7 @@ public class MainScript : MonoBehaviour
     }
 
     // switch to next states based on user input
-    void ManageState(StatesTemplate[] nextState)
+    void ManageState(StatesTextTemplate[] nextState)
     {
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {

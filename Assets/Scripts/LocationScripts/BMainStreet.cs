@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for main street
 [CreateAssetMenu(menuName = "GameLocations/B states")]
-public class BMainStreet : StatesTemplate
+public class BMainStreet : StatesTextTemplate
 {
     public BMainStreet()
     {

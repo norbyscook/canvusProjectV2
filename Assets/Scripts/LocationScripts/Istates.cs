@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for inside secret door with key
 [CreateAssetMenu(menuName = "GameLocations/I states")]
-public class JStates : StatesTemplate
+public class JStates : StatesTextTemplate
 {
 
 }

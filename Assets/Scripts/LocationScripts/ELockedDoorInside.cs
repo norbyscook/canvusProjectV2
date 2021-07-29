@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for locked door
 [CreateAssetMenu(menuName = "GameLocations/E states")]
-public class ELockedDoorInside : StatesTemplate
+public class ELockedDoorInside : StatesTextTemplate
 {
 
 }

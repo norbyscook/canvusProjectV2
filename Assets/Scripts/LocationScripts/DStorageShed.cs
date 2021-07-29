@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for storage shack
 [CreateAssetMenu(menuName = "GameLocations/D states")]
-public class DStorageShed : StatesTemplate
+public class DStorageShed : StatesTextTemplate
 {
 
 }

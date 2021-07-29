@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for gas chamber
 [CreateAssetMenu(menuName = "GameLocations/G states")]
-public class GChemicalChamber: StatesTemplate
+public class GChemicalChamber: StatesTextTemplate
 {
 
 }

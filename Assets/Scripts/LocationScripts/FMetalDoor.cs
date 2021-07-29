@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for door to gas chamber
 [CreateAssetMenu(menuName = "GameLocations/F states")]
-public class FMetalDoor : StatesTemplate
+public class FMetalDoor : StatesTextTemplate
 {
 
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for inside shelf
 [CreateAssetMenu(menuName = "GameLocations/H states")]
-public class JInsideshelf : StatesTemplate
+public class JInsideshelf : StatesTextTemplate
 {
 
 }

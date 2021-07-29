@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for the entrance to ghost town
 [CreateAssetMenu(menuName = "GameLocations/A states")]
-public class AEntrance : StatesTemplate
+public class AEntrance : StatesTextTemplate
 {
 
 }

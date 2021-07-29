@@ -4,7 +4,7 @@ using UnityEngine;
 
 // states for the story menus like intro, ending, and main menu 
 [CreateAssetMenu(menuName = "GameLocations/IntroStates")]
-public class StoryIntroStates : StatesTemplate
+public class StoryIntroStates : StatesTextTemplate
 {
     public StoryIntroStates()
     {
