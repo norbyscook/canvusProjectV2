@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// states for the story intro
+// states for the story menus like intro, ending, and main menu 
 [CreateAssetMenu(menuName = "GameLocations/IntroStates")]
-public class IntroStates : StatesTemplate
+public class StoryIntroStates : StatesTemplate
 {
-    public IntroStates()
+    public StoryIntroStates()
     {
         locationName = "next";
     }
