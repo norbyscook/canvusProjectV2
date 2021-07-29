@@ -6,10 +6,7 @@ using UnityEngine;
 abstract public class StatesTemplate : ScriptableObject
 {
     // the text for each of the states
-    [TextArea(10, 14)][SerializeField] string stateStory;
-
-    // next possible states player can go to
-    [SerializeField] StatesTemplate[] nextStates;
+    [TextArea(10, 14)] [SerializeField] string stateStory;
 
     /*
     Name of the in game location.
@@ -28,11 +25,5 @@ abstract public class StatesTemplate : ScriptableObject
     public string story
     {
         get { return stateStory; }
-    }
-
-    // property to retrieve next possible states
-    public StatesTemplate[] next
-    {
-        get { return nextStates; }
     }
 }

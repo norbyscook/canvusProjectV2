@@ -12,14 +12,14 @@ public class MainScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bodyText.text = GetDisplayText(currentState.next);
+        // set first state
     }
 
     // Update is called once per frame
     void Update()
     {
-        ManageState(currentState.next);
-        bodyText.text = GetDisplayText(currentState.next);
+        // manage states
+        // display text
     }
 
     // displays game text along with next options
@@ -41,15 +41,12 @@ public class MainScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
-            currentState = currentState.next[0]; 
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
         {
-            currentState = currentState.next[1];
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
         {
-            currentState = currentState.next[2];
         }
     }
 
