@@ -2,11 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StatesTemplate : MonoBehaviour
+public class StatesTemplate : MainScript
 {
     #region Declarations
-    // reference to mainscript
-    MainScript main = new MainScript();
 
     // variable for the current state text
     [SerializeField] StatesTextTemplate stateText;
@@ -28,7 +26,7 @@ public class StatesTemplate : MonoBehaviour
     {
         // will call this every frame in update of MainScript
         // update text
-        main.bodyText.text = GetDisplayText();
+        bodyText.text = GetDisplayText();
         // switch states
         ManageState(nextStates);
     }
@@ -40,9 +38,9 @@ public class StatesTemplate : MonoBehaviour
         
         string text = "";
         // stores current state lable into text
-        text += "Current Location: " + main.currentState.text.lable + "\n";
+        text += "Current Location: " + currentState.text.lable + "\n";
         // store current state text into variable
-        text += main.currentState.text.story;
+        text += currentState.text.story;
         // for each location the player gets to go to, add that option to the game text
         for (int i = 0; i < nextStates.Length; i++)
         {
@@ -57,15 +55,15 @@ public class StatesTemplate : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
-            main.currentState = nextStates[0];
+            currentState = nextStates[0];
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
         {
-            main.currentState = nextStates[1];
+            currentState = nextStates[1];
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
         {
-            main.currentState = nextStates[2];
+            currentState = nextStates[2];
         }
     }
     #endregion
