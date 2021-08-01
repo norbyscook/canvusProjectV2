@@ -24,15 +24,15 @@ public class StatesTemplate : MonoBehaviour
     #region Functions
 
     // called in MainScript to help with Changing States
-    public void ChangeStates()
+    public StatesTemplate ChangeStates(StatesTemplate currentState)
     {
 
-        ManageState(nextStates);
+        return ManageState(nextStates, currentState);
     }
 
     // displays the text according to the state
     // can be overridden to change text displays
-    virtual protected string GetDisplayText()
+    virtual public string GetDisplayText(StatesTemplate currentState)
     {
         
         string text = "";
@@ -50,7 +50,7 @@ public class StatesTemplate : MonoBehaviour
     }
 
     // Change state based on user input
-    protected void ManageState(StatesTemplate[] nextStates)
+    protected StatesTemplate ManageState(StatesTemplate[] nextStates, StatesTemplate currentState)
     {
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
@@ -58,12 +58,13 @@ public class StatesTemplate : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
         {
-            mcurrentState = nextStates[1];
+            currentState = nextStates[1];
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
         {
             currentState = nextStates[2];
         }
+        return currentState;
     }
     #endregion
 

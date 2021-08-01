@@ -18,8 +18,13 @@ public class MainScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // call state
-        currentState.Run();
+        // update text
+        bodyText.text = currentState.GetDisplayText(currentState);
+        // change state
+        currentState = currentState.ChangeStates(currentState);
+
+
+
     }
 
 }
