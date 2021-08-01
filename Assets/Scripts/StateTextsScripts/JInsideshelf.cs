@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for inside shelf
-[CreateAssetMenu(menuName = "GameLocations/H states")]
+[CreateAssetMenu(menuName = "State Texts/H states")]
 public class JInsideshelf : StatesTextTemplate
 {
 

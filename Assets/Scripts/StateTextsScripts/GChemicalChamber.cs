@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for gas chamber
-[CreateAssetMenu(menuName = "GameLocations/G states")]
+[CreateAssetMenu(menuName = "State Texts/G states")]
 public class GChemicalChamber: StatesTextTemplate
 {
 

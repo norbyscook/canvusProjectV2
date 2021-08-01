@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for inside secret door with key
-[CreateAssetMenu(menuName = "GameLocations/I states")]
+[CreateAssetMenu(menuName = "State Texts/I states")]
 public class JStates : StatesTextTemplate
 {
 

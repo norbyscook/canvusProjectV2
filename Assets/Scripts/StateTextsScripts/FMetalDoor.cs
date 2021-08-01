@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // states for door to gas chamber
-[CreateAssetMenu(menuName = "GameLocations/F states")]
+[CreateAssetMenu(menuName = "State Texts/F states")]
 public class FMetalDoor : StatesTextTemplate
 {
 
