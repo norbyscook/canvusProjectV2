@@ -8,6 +8,6 @@ public class BMainStreet : StatesTextTemplate
 {
     public BMainStreet()
     {
-        locationName = "Main Street";
+        stateLable = "Main Street";
     }
 }

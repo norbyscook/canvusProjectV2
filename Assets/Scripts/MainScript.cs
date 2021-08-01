@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class MainScript : MonoBehaviour
 {
     // reference to text being displayed
-    [SerializeField] Text bodyText;
-    [SerializeField] protected StatesTemplate currentState;
+    [SerializeField] public Text bodyText;
+    // reference to the starting state
+    [SerializeField] public StatesTemplate currentState;
     
     // Start is called before the first frame update
     void Start()

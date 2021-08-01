@@ -8,7 +8,7 @@ public class StoryIntroStates : StatesTextTemplate
 {
     public StoryIntroStates()
     {
-        locationName = "next";
+        stateLable = "next";
     }
     
 }

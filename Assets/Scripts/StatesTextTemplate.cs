@@ -20,11 +20,11 @@ abstract public class StatesTextTemplate : ScriptableObject
     Each location can have different scriptable objects,
     representing the different states of that location
     */
-    protected string locationName;
+    protected string stateLable;
 
-    public string location
+    public string lable
     {
-        get { return locationName; }
+        get { return stateLable; }
     }
 
 }
