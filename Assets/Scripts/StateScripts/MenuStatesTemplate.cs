@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuStatesTemplate : MonoBehaviour
+public class MenuStatesTemplate : StatesTemplate
 {
-    // Start is called before the first frame update
-    void Start()
+    public override string GetDisplayText(StatesTemplate currentState)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        string text = "";
+        // store current state text into variable
+        text += currentState.text.story;
+        return text;
     }
 }
