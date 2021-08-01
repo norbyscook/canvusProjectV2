@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StatesTemplate : MainScript
 {
+    #region Declarations
     // variable for the current state text
     [SerializeField] StatesTextTemplate stateText;
     public StatesTextTemplate text
@@ -17,13 +18,19 @@ public class StatesTemplate : MainScript
     {
         get { return nextStates; }
     }
+    #endregion
+
+    public void Run()
+    {
+        // will call this every frame in update of MainScript
+        GetDisplayText();
+        ManageState(nextStates);
+    }
 
     virtual protected string GetDisplayText()
     {
         // store current state text into variable
-        string text = "";
-
-
+        string text = currentState.text.story;
         // for each location the player gets to go to, add that option to the game text
         for (int i = 0; i < nextStates.Length; i++)
         {
@@ -33,7 +40,7 @@ public class StatesTemplate : MainScript
         return text;
     }
 
-    protected void ManageState(StatesTextTemplate[] nextState)
+    protected void ManageState(StatesTemplate[] nextStates)
     {
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
