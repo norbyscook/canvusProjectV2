@@ -55,7 +55,7 @@ public class StatesTemplate : MonoBehaviour
     {
         // variable to concatinate strings to be displayed
         string text = "";
-        // add location text if state text is not null reference
+        // add location text
         // TODO add location lable variable
         text += "Current Location: " + "location lable" + "\n";
 
@@ -65,10 +65,8 @@ public class StatesTemplate : MonoBehaviour
             text += repeatingText.textOne + "\n";
         }
 
-        // add story text only if state text is not null reference
-
+        // add story text
         text += currentState.story + "\n";
-
 
         // add repeating text if repeating text not null reference
         if (repeatingText != null)
@@ -76,15 +74,14 @@ public class StatesTemplate : MonoBehaviour
             text += repeatingText.textEnd + "\n";
         }
 
-        // add next states only if next states is not null
+        // add next states only if next states is not empty
         if (nextStates.Length != 0)
         {
             // for each location the player gets to go to, add that option to the game text
             for (int i = 0; i < nextStates.Length; i++)
             {
-                // add next locations as options only if next states state text is not null
+                // add next locations as options
                 // TODO add location lable variable
-
                 text += "\npress " + (i + 1) + " to go to " + "location lable";
             }
         }
