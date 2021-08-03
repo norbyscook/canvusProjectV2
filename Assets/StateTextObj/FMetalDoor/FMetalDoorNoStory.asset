@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c7a693915c0f1d4db2a4bf10dedf9b3, type: 3}
   m_Name: FMetalDoorNoStory
   m_EditorClassIdentifier: 
-  stateStory: It seems to be a bit louder than it was before?
+  stateStory: 

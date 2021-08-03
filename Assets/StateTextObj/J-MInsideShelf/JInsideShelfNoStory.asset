@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1fb9d30abf27c4182c2d1fac82e27f, type: 3}
   m_Name: JInsideShelfNoStory
   m_EditorClassIdentifier: Assembly-CSharp::JInsideshelftxt
-  stateStory: 'You walk towards the shelf and open it. '
+  stateStory: 
