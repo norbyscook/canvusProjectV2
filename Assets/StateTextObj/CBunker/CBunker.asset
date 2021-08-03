@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492524beaedbb4e49bb188d7b70480c7, type: 3}
+  m_Name: CBunker
+  m_EditorClassIdentifier: 
+  stateStory: "You walk to the bunker, open the door, and walk down the dark passageway.
+    The light slowly fades away,  and it becomes pitch black. You feel your way around.
+    You wished you had a flashlight.\r\n\r\nAt the bottom of the stairs, there seems
+    to be a locked door. \r\nYou sense a faint glow coming from the left. You see
+    a faint green light coming from a second door at the end of another hallway.
+    It is a thick metal door with a bulky round window. \r\n"

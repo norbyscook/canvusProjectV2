@@ -20,7 +20,7 @@ abstract public class StatesTextTemplate : ScriptableObject
     Each location can have different scriptable objects,
     representing the different states of that location
     */
-    protected string stateLable;
+    protected string stateLable = "";
 
     public string lable
     {
