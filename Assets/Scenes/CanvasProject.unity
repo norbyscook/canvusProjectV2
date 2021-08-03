@@ -214,7 +214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 379163313}
 --- !u!1 &264487384
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +447,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 310621377}
 --- !u!1 &379163311
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,7 +713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 379163313}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1039,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 1758673393}
 --- !u!1 &903595659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1311,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 1323283389}
+  - {fileID: 1853589457}
 --- !u!1 &1336414303
 GameObject:
   m_ObjectHideFlags: 0
