@@ -616,7 +616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: 86b8c5ee1ea3658489e82411860adcee, type: 2}
   nextStates: []
 --- !u!1 &484244522
 GameObject:
@@ -884,7 +884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: 1f9f0596ab5caa340a9b08c04115b233, type: 2}
   nextStates: []
 --- !u!1 &686404510
 GameObject:
@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: dc793aea21d013247bb2703b50c6c3b9, type: 2}
   nextStates: []
 --- !u!1 &903595659
 GameObject:
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: fb9110ca99e29184face5b7709f666b3, type: 2}
   nextStates: []
 --- !u!1 &1499685738
 GameObject:
@@ -1900,7 +1900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateText: {fileID: 0}
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: 86b8c5ee1ea3658489e82411860adcee, type: 2}
   nextStates: []
 --- !u!1 &1902287370
 GameObject:
