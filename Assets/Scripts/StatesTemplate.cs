@@ -7,10 +7,10 @@ public class StatesTemplate : MonoBehaviour
     #region Declarations
 
     // variable to take in  the current state text
-    [SerializeField] protected StatesTextTemplate stateText;
-    public StatesTextTemplate text
+    [TextArea(10, 14)] [SerializeField] protected string stateStory;
+    public string story
     {
-        get { return stateText; }
+        get { return stateStory; }
     }
 
     // varaible to take in  the repeating texts
@@ -55,12 +55,9 @@ public class StatesTemplate : MonoBehaviour
     {
         // variable to concatinate strings to be displayed
         string text = "";
-
         // add location text if state text is not null reference
-        if (stateText != null)
-        {
-            text += "Current Location: " + currentState.text.lable + "\n";
-        }
+        // TODO add location lable variable
+        text += "Current Location: " + "location lable" + "\n";
 
         // add repeating text if repeating text not null reference
         if (repeatingText != null)
@@ -69,10 +66,9 @@ public class StatesTemplate : MonoBehaviour
         }
 
         // add story text only if state text is not null reference
-        if (stateText != null)
-        {
-            text += currentState.text.story + "\n";
-        }
+
+        text += currentState.story + "\n";
+
 
         // add repeating text if repeating text not null reference
         if (repeatingText != null)
@@ -80,7 +76,6 @@ public class StatesTemplate : MonoBehaviour
             text += repeatingText.textEnd + "\n";
         }
 
-        Debug.Log(nextStates.Length + "\n");
         // add next states only if next states is not null
         if (nextStates.Length != 0)
         {
@@ -88,10 +83,9 @@ public class StatesTemplate : MonoBehaviour
             for (int i = 0; i < nextStates.Length; i++)
             {
                 // add next locations as options only if next states state text is not null
-                if (nextStates[i].stateText != null)
-                {
-                    text += "\npress " + (i + 1) + " to go to " + nextStates[i].text.lable;
-                }
+                // TODO add location lable variable
+
+                text += "\npress " + (i + 1) + " to go to " + "location lable";
             }
         }
 

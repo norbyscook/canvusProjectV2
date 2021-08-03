@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateText: {fileID: 0}
+  stateStory: THE STORY
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1769412418}
@@ -510,7 +510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateText: {fileID: 0}
+  stateStory: "MORE STORY\t"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1825085161}
@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21949d2b616740e47bec202a3e1b9081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateText: {fileID: 0}
+  stateStory: 
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 0}
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateText: {fileID: 0}
+  stateStory: 
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1788884063}
