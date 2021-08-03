@@ -81,13 +81,17 @@ public class StatesTemplate : MonoBehaviour
         }
 
         Debug.Log(nextStates.Length + "\n");
-        // add next states only if next states and state text is not null
-        if (nextStates.Length != 0 && stateText != null)
+        // add next states only if next states is not null
+        if (nextStates.Length != 0)
         {
             // for each location the player gets to go to, add that option to the game text
             for (int i = 0; i < nextStates.Length; i++)
             {
-                text += "\npress " + (i + 1) + " to go to " + nextStates[i].text.lable;
+                // add next locations as options only if next states state text is not null
+                if (nextStates[i].stateText != null)
+                {
+                    text += "\npress " + (i + 1) + " to go to " + nextStates[i].text.lable;
+                }
             }
         }
 

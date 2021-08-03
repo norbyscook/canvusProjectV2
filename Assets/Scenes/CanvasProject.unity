@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 98034983}
   - component: {fileID: 98034984}
   m_Layer: 0
-  m_Name: D2StorageShed
+  m_Name: D2StorageShack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 295659901}
   - component: {fileID: 295659902}
   m_Layer: 0
-  m_Name: D5StorageShed
+  m_Name: D5StorageShack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 355093993}
   - component: {fileID: 355093994}
   m_Layer: 0
-  m_Name: D3StorageShed
+  m_Name: D3StorageShack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 501299886}
   - component: {fileID: 501299887}
   m_Layer: 0
-  m_Name: D1StorageShed
+  m_Name: D1StorageShack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -839,7 +839,8 @@ MonoBehaviour:
   stateText: {fileID: 11400000, guid: fff7ca3c3a939454496982ee8038e1c4, type: 2}
   repeatingText: {fileID: 0}
   nextStates:
-  - {fileID: 1788884063}
+  - {fileID: 822000688}
+  - {fileID: 546102106}
 --- !u!1 &546102104
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,7 +998,7 @@ GameObject:
   - component: {fileID: 822000687}
   - component: {fileID: 822000688}
   m_Layer: 0
-  m_Name: DStorageShed
+  m_Name: DStorageShack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1263,7 +1264,7 @@ GameObject:
   - component: {fileID: 1332517117}
   - component: {fileID: 1332517118}
   m_Layer: 0
-  m_Name: D4StorageShed
+  m_Name: D4StorageShack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
