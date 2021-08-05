@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class NonPlayStatesTemplate : StatesTemplate
+namespace CanvasProject
 {
-    public override string GetDisplayText(StatesTemplate currentState)
+    public class NonPlayStatesTemplate : StatesTemplate
     {
-        // return story text if state text is not null
-        if(stateStory != null)
+        public override string GetDisplayText(StatesTemplate currentState)
         {
-            return currentState.story;
+            // return story text if state text is not null
+            if (stateStory != null)
+            {
+                return currentState.story;
+            }
+            return "";
         }
-        return "";
     }
 }

@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class AEntrance : StatesTemplate
+namespace CanvasProject
 {
-    public AEntrance()
+    public class AEntrance : StatesTemplate
     {
-        lable = "Entrance";
+        public AEntrance()
+        {
+            lable = "Entrance";
+        }
     }
 }

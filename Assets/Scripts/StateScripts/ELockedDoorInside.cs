@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace CanvasProject
 {
-    public class BMainStreet : StatesTemplate
+    public class ELockedDoorInside : StatesTemplate
     {
-        public BMainStreet()
+        public ELockedDoorInside()
         {
-            lable = "Main Street";
+            lable = "Locked Door";
         }
     }
 }
+

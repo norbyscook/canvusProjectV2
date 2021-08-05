@@ -3,25 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MainScript : MonoBehaviour
+namespace CanvasProject
 {
-    // reference to text being displayed
-    [SerializeField] Text bodyText;
-    // reference to the starting state
-    [SerializeField] StatesTemplate currentState;
-    
-    // Start is called before the first frame update
-    void Start()
+    public class MainScript : MonoBehaviour
     {
-    }
+        // reference to text being displayed
+        [SerializeField] Text bodyText;
+        // reference to the starting state
+        [SerializeField] StatesTemplate currentState;
 
-    // Update is called once per frame
-    void Update()
-    {
-        // update text
-        bodyText.text = currentState.GetDisplayText(currentState);
-        // change state
-        currentState = currentState.ManageStates(currentState);
+        // Start is called before the first frame update
+        void Start()
+        {
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            // update text
+            bodyText.text = currentState.GetDisplayText(currentState);
+            // change state
+            currentState = currentState.ManageStates(currentState);
+        }
+
     }
 
 }

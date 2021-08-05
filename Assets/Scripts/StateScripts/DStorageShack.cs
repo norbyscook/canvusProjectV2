@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class DStorageShack : StatesTemplate
+namespace CanvasProject
 {
-    public DStorageShack()
+    public class DStorageShack : StatesTemplate
     {
-        lable = "Storage Shack";
+        public DStorageShack()
+        {
+            lable = "Storage Shack";
+        }
     }
 }
