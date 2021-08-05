@@ -1,6 +1,5 @@
 # Project Information
-This project is created while following a tutorial from gamedev tv
-I made some changes to the state machine
+This project is created while following a tutorial from gamedev tv. I made some changes to the state machine
 
 
 Here is the graph for the class hierarchy, the latest version is the tab at the right hand side
