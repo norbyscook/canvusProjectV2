@@ -166,8 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd11e06faa52cfd4ebe2bdfdec36481b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
-  repeatingText: {fileID: 0}
+  stateStory: "You head back to the bunker. You have your flashlight now. \r\nYou
+    turn it on and head down the stairs into the dark abyss. \r"
+  repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
   nextStates: []
 --- !u!1 &26986237
 GameObject:
@@ -212,8 +213,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd11e06faa52cfd4ebe2bdfdec36481b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
-  repeatingText: {fileID: 0}
+  stateStory: You walk out of the locked door and back into the bottom of the stairs.
+  repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
   nextStates: []
 --- !u!1 &80252727
 GameObject:
@@ -259,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: 
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
   nextStates: []
 --- !u!1 &147803427
 GameObject:
@@ -304,11 +305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da971fc12a2a8c843acd5e8b3d54730a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
-    coming from the crumbling ceiling panels. The shed is a mess with lots of items
-    inside.\r\nYou are not sure what you can do here.   However, there is a locked
-    shelf door at the far end of the shack\r"
-  repeatingText: {fileID: 0}
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 853966d59f2334449af8295baeeee470, type: 2}
   nextStates: []
 --- !u!1 &317038556
 GameObject:
@@ -353,12 +351,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "Past the entrance is the main street. The dirt path fades away far
-    into the distant land, rising and falling across the hills.\r\nMost of the houses
-    are reduced to rubbles. Only a few are left standing on it\u2019s last support
-    columns.\r\nOn your right is a storage shed.\r\nYou notice a door to an underground
-    bunker on the far end of the street.\r"
-  repeatingText: {fileID: 0}
+  stateStory: "The sun has set. The dark hills are outlined by a faint wisp of clouds,
+    tainted purple by the last rays of the sun.\r"
+  repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
 --- !u!1 &419066382
@@ -566,10 +561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da971fc12a2a8c843acd5e8b3d54730a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
-    coming from the crumbling ceiling panels. The shed is a mess with lots of items
-    inside.\r\nYou are not sure what you can do here.   However, there is a locked
-    shelf door at the far end of the shack\r"
+  stateStory: You walk into the storage shack. There are a lot of items but you were
+    able to find a flashlight and some working batteries.
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &614063287
@@ -615,7 +608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96bea843ec3f74d4ea89ef9f1f598244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: "You open the locked door and inside is another storage unit. It\u2019s
+    dark and musty. You manage to find an unused gas mask. Perhaps this will be useful."
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &686404510
@@ -761,12 +755,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "Past the entrance is the main street. The dirt path fades away far
-    into the distant land, rising and falling across the hills.\r\nMost of the houses
-    are reduced to rubbles. Only a few are left standing on it\u2019s last support
-    columns.\r\nOn your right is a storage shed.\r\nYou notice a door to an underground
-    bunker on the far end of the street.\r"
-  repeatingText: {fileID: 0}
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
 --- !u!1 &1019726958
@@ -812,12 +802,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "Past the entrance is the main street. The dirt path fades away far
-    into the distant land, rising and falling across the hills.\r\nMost of the houses
-    are reduced to rubbles. Only a few are left standing on it\u2019s last support
-    columns.\r\nOn your right is a storage shed.\r\nYou notice a door to an underground
-    bunker on the far end of the street.\r"
-  repeatingText: {fileID: 0}
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
 --- !u!1 &1047348632
@@ -863,12 +849,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "Past the entrance is the main street. The dirt path fades away far
-    into the distant land, rising and falling across the hills.\r\nMost of the houses
-    are reduced to rubbles. Only a few are left standing on it\u2019s last support
-    columns.\r\nOn your right is a storage shed.\r\nYou notice a door to an underground
-    bunker on the far end of the street.\r"
-  repeatingText: {fileID: 0}
+  stateStory: "The wall of smoke from the factories in the distance slowly rises
+    like dark demons against the red setting sun.\r"
+  repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
 --- !u!1 &1125301204
@@ -914,8 +897,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd11e06faa52cfd4ebe2bdfdec36481b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
-  repeatingText: {fileID: 0}
+  stateStory: "You walk to the bunker, open the door, and walk down the dark passageway.
+    The light slowly fades away,  and it becomes pitch black. You feel your way around.
+    You wished you had a flashlight.\r\n\r\nAt the bottom of the stairs, there seems
+    to be a locked door. \r\nYou sense a faint glow coming from the left. You see
+    a faint green light coming from a second door at the end of another hallway.
+    It is a thick metal door with a bulky round window. \r"
+  repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
   nextStates: []
 --- !u!1 &1309817571
 GameObject:
@@ -984,6 +972,7 @@ Transform:
   - {fileID: 1907091913}
   - {fileID: 2031009204}
   - {fileID: 614063288}
+  - {fileID: 1910209286}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1045,8 +1034,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
-  repeatingText: {fileID: 0}
+  stateStory: It is even darker now.  You look back at the entrance and at the long
+    winding path that led back to your home. You hope that your village and your
+    brother are doing okay.
+  repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
 --- !u!1 &1390322599
@@ -1092,11 +1083,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da971fc12a2a8c843acd5e8b3d54730a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
-    coming from the crumbling ceiling panels. The shed is a mess with lots of items
-    inside.\r\nYou are not sure what you can do here.   However, there is a locked
-    shelf door at the far end of the shack\r"
-  repeatingText: {fileID: 0}
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 853966d59f2334449af8295baeeee470, type: 2}
   nextStates: []
 --- !u!1 &1390522942
 GameObject:
@@ -1188,7 +1176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd11e06faa52cfd4ebe2bdfdec36481b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: "You walk towards the bunker and once again descend into the dark abyss.\r\nYou
+    put your mask on.\r"
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &1456113526
@@ -1235,7 +1224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: 
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
   nextStates: []
 --- !u!1 &1483106297
 GameObject:
@@ -1283,7 +1272,7 @@ MonoBehaviour:
   stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
     coming from the crumbling ceiling panels. The shed is a mess with lots of items
     inside.\r\nYou are not sure what you can do here.   However, there is a locked
-    shelf door at the far end of the shack\r"
+    shelf door at the far end of the shack\r."
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &1667495476
@@ -1329,12 +1318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "Past the entrance is the main street. The dirt path fades away far
-    into the distant land, rising and falling across the hills.\r\nMost of the houses
-    are reduced to rubbles. Only a few are left standing on it\u2019s last support
-    columns.\r\nOn your right is a storage shed.\r\nYou notice a door to an underground
-    bunker on the far end of the street.\r"
-  repeatingText: {fileID: 0}
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
 --- !u!1 &1740157472
@@ -1582,10 +1567,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da971fc12a2a8c843acd5e8b3d54730a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
-    coming from the crumbling ceiling panels. The shed is a mess with lots of items
-    inside.\r\nYou are not sure what you can do here.   However, there is a locked
-    shelf door at the far end of the shack\r"
+  stateStory: "You walk into the storage shack. You remembered that there is a locked
+    shelf at the far end of the shack.\r\nYou wonder if the same key for the trap
+    door works for the shelf.\r"
+  repeatingText: {fileID: 0}
+  nextStates: []
+--- !u!1 &1910209285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910209286}
+  - component: {fileID: 1910209287}
+  m_Layer: 0
+  m_Name: FMetalDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1910209286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910209285}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.673401, y: -28.7565, z: -4.416733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1910209287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910209285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 016c414eab14f8b4ca28bb7a069d1660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &2031009203
@@ -1631,9 +1661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da971fc12a2a8c843acd5e8b3d54730a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
-    coming from the crumbling ceiling panels. The shed is a mess with lots of items
-    inside.\r\nYou are not sure what you can do here.   However, there is a locked
-    shelf door at the far end of the shack\r"
+  stateStory: You walk into the storage shack, maybe you just want to see the contents
+    of the shelf again?
   repeatingText: {fileID: 0}
   nextStates: []

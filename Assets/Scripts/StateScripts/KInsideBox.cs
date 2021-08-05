@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 namespace CanvasProject
 {
-    public class FMetalDoor : StatesTemplate
+    public class KInsideBox : StatesTemplate
     {
-        public FMetalDoor()
+        public KInsideBox()
         {
-            lable = "The Metal Door";
+            lable = "Inside Box";
         }
     }
 }
-
