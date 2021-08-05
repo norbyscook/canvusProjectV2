@@ -2,7 +2,7 @@
 This project is created while following a tutorial from gamedev tv. I made some changes to the state machine
 
 
-Here is the graph for the class hierarchy, the latest version is the tab at the right hand side
+Here is the graph for the class hierarchy, the latest version is in the tab furthest to the right. 
 
 [canvas project class hierarchy](https://app.diagrams.net/#G1fFu6epxHXzOqkUV0iRUwohJr7pR1sUqb)
 
