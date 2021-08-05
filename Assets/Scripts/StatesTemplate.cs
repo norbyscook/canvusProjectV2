@@ -26,6 +26,10 @@ public class StatesTemplate : MonoBehaviour
     {
         get { return nextStates; }
     }
+
+    // variable for storing location of state
+    protected string lable = "";
+
     #endregion
 
     #region Functions
@@ -56,8 +60,7 @@ public class StatesTemplate : MonoBehaviour
         // variable to concatinate strings to be displayed
         string text = "";
         // add location text
-        // TODO add location lable variable
-        text += "Current Location: " + "location lable" + "\n";
+        text += "Current Location: " + currentState.lable + "\n";
 
         // add repeating text if repeating text not null reference
         if (repeatingText != null)
@@ -81,8 +84,7 @@ public class StatesTemplate : MonoBehaviour
             for (int i = 0; i < nextStates.Length; i++)
             {
                 // add next locations as options
-                // TODO add location lable variable
-                text += "\npress " + (i + 1) + " to go to " + "location lable";
+                text += "\npress " + (i + 1) + " to go to " + currentState.nextStates[i].lable;
             }
         }
 

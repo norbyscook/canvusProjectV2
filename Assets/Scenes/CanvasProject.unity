@@ -432,6 +432,8 @@ Transform:
   - {fileID: 1769412419}
   - {fileID: 1825085160}
   - {fileID: 1788884064}
+  - {fileID: 1740157473}
+  - {fileID: 1483106298}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -497,6 +499,106 @@ Transform:
   m_Father: {fileID: 1309817573}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1483106297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483106298}
+  - component: {fileID: 1483106299}
+  m_Layer: 0
+  m_Name: DStorageShack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1483106298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483106297}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1483106299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483106297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da971fc12a2a8c843acd5e8b3d54730a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
+    coming from the crumbling ceiling panels. The shed is a mess with lots of items
+    inside.\r\nYou are not sure what you can do here.   However, there is a locked
+    shelf door at the far end of the shack\r"
+  repeatingText: {fileID: 0}
+  nextStates: []
+--- !u!1 &1740157472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740157473}
+  - component: {fileID: 1740157474}
+  m_Layer: 0
+  m_Name: BMainStreet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1740157473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740157472}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1740157474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740157472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: "Past the entrance is the main street. The dirt path fades away far
+    into the distant land, rising and falling across the hills.\r\nMost of the houses
+    are reduced to rubbles. Only a few are left standing on it\u2019s last support
+    columns.\r\nOn your right is a storage shed.\r\nYou notice a door to an underground
+    bunker on the far end of the street.\r"
+  repeatingText: {fileID: 0}
+  nextStates:
+  - {fileID: 1483106299}
 --- !u!1 &1769412417
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,8 +631,8 @@ MonoBehaviour:
   stateStory: 'Decades into the climate crisis, humanity is trying to find a way
     to survive in the hot desolate world.
 
-    Many have died over the decades.
-    Survivors have made shelters and villages out of the remnants of the past.
+    Many have died over the decades. Survivors
+    have made shelters and villages out of the remnants of the past.
 
 '
   repeatingText: {fileID: 0}
@@ -583,7 +685,7 @@ MonoBehaviour:
     and not very tall. '
   repeatingText: {fileID: 0}
   nextStates:
-  - {fileID: 0}
+  - {fileID: 1740157474}
 --- !u!4 &1788884064
 Transform:
   m_ObjectHideFlags: 0
