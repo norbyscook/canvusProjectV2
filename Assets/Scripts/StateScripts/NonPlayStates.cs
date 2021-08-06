@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace CanvasProject
 {
-    public class NonPlayStatesTemplate : StatesTemplate
+    public class NonPlayStates : StatesTemplate
     {
         public override string GetDisplayText(StatesTemplate currentState)
         {

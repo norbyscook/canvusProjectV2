@@ -152,7 +152,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4025530
 MonoBehaviour:
@@ -169,7 +169,10 @@ MonoBehaviour:
   stateStory: "You head back to the bunker. You have your flashlight now. \r\nYou
     turn it on and head down the stairs into the dark abyss. \r"
   repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 1667495478}
+  - {fileID: 1960104773}
+  - {fileID: 1401354315}
 --- !u!1 &26986237
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +202,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &26986239
 MonoBehaviour:
@@ -215,7 +218,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: You walk out of the locked door and back into the bottom of the stairs.
   repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 317038558}
+  - {fileID: 612232722}
 --- !u!1 &70708763
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +250,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &70708765
 MonoBehaviour:
@@ -293,7 +298,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &80252729
 MonoBehaviour:
@@ -309,7 +314,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 1047348634}
+  - {fileID: 1021670451}
+  - {fileID: 614063289}
 --- !u!1 &147803427
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +347,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &147803429
 MonoBehaviour:
@@ -355,7 +363,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 853966d59f2334449af8295baeeee470, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 1047348634}
 --- !u!1 &175345097
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +394,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &175345099
 MonoBehaviour:
@@ -433,7 +442,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &200093017
 MonoBehaviour:
@@ -497,7 +506,7 @@ MonoBehaviour:
     tainted purple by the last rays of the sun.\r"
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
-  - {fileID: 1483106299}
+  - {fileID: 1907091914}
 --- !u!1 &419066382
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,15 +534,15 @@ RectTransform:
   m_GameObject: {fileID: 419066382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.2424936, y: 5.2424936, z: 5.2424936}
+  m_LocalScale: {x: 1.0101281, y: 1.0101281, z: 1.0101281}
   m_Children: []
   m_Father: {fileID: 686404514}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 11}
-  m_SizeDelta: {x: 353.8129, y: 173.1135}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2260, y: 1140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419066384
 MonoBehaviour:
@@ -557,7 +566,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 9
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -689,7 +698,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &544418542
 MonoBehaviour:
@@ -706,7 +715,8 @@ MonoBehaviour:
   stateStory: You walk into the storage shack. There are a lot of items but you were
     able to find a flashlight and some working batteries.
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 1667495478}
 --- !u!1 &585963689
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +746,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &585963691
 MonoBehaviour:
@@ -782,7 +792,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &612232722
 MonoBehaviour:
@@ -828,7 +838,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &614063289
 MonoBehaviour:
@@ -845,7 +855,8 @@ MonoBehaviour:
   stateStory: "You open the locked door and inside is another storage unit. It\u2019s
     dark and musty. You manage to find an unused gas mask. Perhaps this will be useful."
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 26986239}
 --- !u!1 &686404510
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,7 +1003,8 @@ MonoBehaviour:
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
-  - {fileID: 1483106299}
+  - {fileID: 544418542}
+  - {fileID: 1125301206}
 --- !u!1 &832079685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,7 +1034,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &832079687
 MonoBehaviour:
@@ -1068,7 +1080,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &968723261
 MonoBehaviour:
@@ -1134,6 +1146,7 @@ MonoBehaviour:
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
+  - {fileID: 1125301206}
 --- !u!1 &1021670449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1163,7 +1176,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1021670451
 MonoBehaviour:
@@ -1179,7 +1192,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 78484fd8ff2facf449f3fae84de7545f, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 70708765}
+  - {fileID: 80252729}
 --- !u!1 &1047348632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,7 +1242,8 @@ MonoBehaviour:
     like dark demons against the red setting sun.\r"
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
-  - {fileID: 1483106299}
+  - {fileID: 147803429}
+  - {fileID: 80252729}
 --- !u!1 &1125301204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,7 +1294,9 @@ MonoBehaviour:
     a faint green light coming from a second door at the end of another hallway.
     It is a thick metal door with a bulky round window. \r"
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 688860032}
+  - {fileID: 1910209287}
 --- !u!1 &1207400674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,7 +1326,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1207400676
 MonoBehaviour:
@@ -1381,6 +1399,7 @@ Transform:
   - {fileID: 317038557}
   - {fileID: 1378229305}
   - {fileID: 1125301205}
+  - {fileID: 1713100626}
   - {fileID: 4025529}
   - {fileID: 1456113527}
   - {fileID: 80252728}
@@ -1438,7 +1457,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1339950769
 MonoBehaviour:
@@ -1504,7 +1523,8 @@ MonoBehaviour:
     brother are doing okay.
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
-  - {fileID: 1483106299}
+  - {fileID: 2031009205}
+  - {fileID: 1414741950}
 --- !u!1 &1390322599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,7 +1554,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1390322601
 MonoBehaviour:
@@ -1550,7 +1570,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 853966d59f2334449af8295baeeee470, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 1667495478}
 --- !u!1 &1390522942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,7 +1648,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1401354315
 MonoBehaviour:
@@ -1679,7 +1700,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1414741950
 MonoBehaviour:
@@ -1696,7 +1717,8 @@ MonoBehaviour:
   stateStory: "You walk towards the bunker and once again descend into the dark abyss.\r\nYou
     put your mask on.\r"
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 612232722}
 --- !u!1 &1456113526
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,7 +1748,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1456113528
 MonoBehaviour:
@@ -1742,7 +1764,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 1667495478}
+  - {fileID: 1960104773}
+  - {fileID: 1401354315}
 --- !u!1 &1483106297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,7 +1797,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1483106299
 MonoBehaviour:
@@ -1791,7 +1816,8 @@ MonoBehaviour:
     inside.\r\nYou are not sure what you can do here.   However, there is a locked
     shelf door at the far end of the shack\r."
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 1019726960}
 --- !u!1 &1667495476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,7 +1864,59 @@ MonoBehaviour:
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
-  - {fileID: 1483106299}
+  - {fileID: 1390322601}
+  - {fileID: 4025530}
+--- !u!1 &1713100624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1713100626}
+  - component: {fileID: 1713100625}
+  m_Layer: 0
+  m_Name: C0.1Buncker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1713100625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713100624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd11e06faa52cfd4ebe2bdfdec36481b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: "At the bottom of the stairs, there seems to be a locked door. \r\nYou
+    sense a faint glow coming from the left. You see a faint green light coming from
+    a second door at the end of another hallway. It is a thick metal door with a
+    bulky round window. \r"
+  repeatingText: {fileID: 0}
+  nextStates:
+  - {fileID: 688860032}
+  - {fileID: 1910209287}
+--- !u!4 &1713100626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713100624}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1740157472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1890,6 +1968,7 @@ MonoBehaviour:
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1483106299}
+  - {fileID: 1125301206}
 --- !u!1 &1769412417
 GameObject:
   m_ObjectHideFlags: 0
@@ -2070,7 +2149,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1907091914
 MonoBehaviour:
@@ -2088,7 +2167,8 @@ MonoBehaviour:
     shelf at the far end of the shack.\r\nYou wonder if the same key for the trap
     door works for the shelf.\r"
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 317038558}
 --- !u!1 &1910209285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2118,7 +2198,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1910209287
 MonoBehaviour:
@@ -2134,7 +2214,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 78484fd8ff2facf449f3fae84de7545f, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 1207400676}
+  - {fileID: 1713100625}
 --- !u!1 &1960104771
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,7 +2246,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1960104773
 MonoBehaviour:
@@ -2180,7 +2262,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 78484fd8ff2facf449f3fae84de7545f, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 175345099}
+  - {fileID: 1456113528}
 --- !u!1 &2031009203
 GameObject:
   m_ObjectHideFlags: 0
@@ -2210,7 +2294,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2031009205
 MonoBehaviour:
@@ -2227,4 +2311,5 @@ MonoBehaviour:
   stateStory: You walk into the storage shack, maybe you just want to see the contents
     of the shelf again?
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 1378229306}

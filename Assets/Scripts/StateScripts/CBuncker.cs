@@ -8,7 +8,7 @@ namespace CanvasProject
     {
         public CBuncker()
         {
-            lable = "C Buncker";
+            lable = "Buncker";
         }
     }
 }
