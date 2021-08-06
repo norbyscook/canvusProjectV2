@@ -259,7 +259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c8ea92742b0584da2d6b98c309cd77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: The door is not as heavy as before, but the air is still thick. Not
+    feeling as dizzy this time, you decide to walk into the room. Another flight
+    of stairs will lead you deeper still. You take a deep breath and continue downwards.
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &80252727
@@ -397,7 +399,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c8ea92742b0584da2d6b98c309cd77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: "You slowly open the door, but it is heavy. The air is thick. You feel
+    dizzy. \u201CI need to find something to help me with the chemicals,\u201D you
+    thought... \r\nYou quickly go back up to get some fresh air.\r"
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &200093015
@@ -429,7 +433,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &200093017
 MonoBehaviour:
@@ -443,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed4f14e0ad9d764d92dda02671e7f9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: Inside the school bag is a book.
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &317038556
@@ -703,6 +707,52 @@ MonoBehaviour:
     able to find a flashlight and some working batteries.
   repeatingText: {fileID: 0}
   nextStates: []
+--- !u!1 &585963689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 585963690}
+  - component: {fileID: 585963691}
+  m_Layer: 0
+  m_Name: J1InsideShelf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &585963690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585963689}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.673401, y: -28.7565, z: -4.416733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &585963691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585963689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96089261cd0cf94dae5f5843644ae7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 4796802854277a1498ea8c5c23ee05ab, type: 2}
+  nextStates: []
 --- !u!1 &612232720
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,8 +796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 016c414eab14f8b4ca28bb7a069d1660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
-  repeatingText: {fileID: 0}
+  stateStory: It seems to be a bit louder than it was before?
+  repeatingText: {fileID: 11400000, guid: 78484fd8ff2facf449f3fae84de7545f, type: 2}
   nextStates: []
 --- !u!1 &614063287
 GameObject:
@@ -986,8 +1036,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e96089261cd0cf94dae5f5843644ae7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
-  repeatingText: {fileID: 0}
+  stateStory: 'You walk towards the shelf and open it. '
+  repeatingText: {fileID: 11400000, guid: 4796802854277a1498ea8c5c23ee05ab, type: 2}
   nextStates: []
 --- !u!1 &968723259
 GameObject:
@@ -1018,7 +1068,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &968723261
 MonoBehaviour:
@@ -1032,7 +1082,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce2fb50a284e7dd41b8756b8a37e1f5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: "The book is a small photo album with some pictures:\r\nThere is a
+    picture of the sunset at the ocean, another one with children playing with their
+    friends.\r\nThere are some more family photos.\r\n...\r"
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &1019726958
@@ -1126,7 +1178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: 
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: 78484fd8ff2facf449f3fae84de7545f, type: 2}
   nextStates: []
 --- !u!1 &1047348632
 GameObject:
@@ -1225,7 +1277,7 @@ MonoBehaviour:
     to be a locked door. \r\nYou sense a faint glow coming from the left. You see
     a faint green light coming from a second door at the end of another hallway.
     It is a thick metal door with a bulky round window. \r"
-  repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
+  repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &1207400674
 GameObject:
@@ -1270,7 +1322,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c8ea92742b0584da2d6b98c309cd77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: You slowly open the door, but it is heavy. The air is thick. You feel
+    dizzy and realize that something is wrong. You quickly go back up to get some
+    fresh air.
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &1309817571
@@ -1348,6 +1402,7 @@ Transform:
   - {fileID: 70708764}
   - {fileID: 1401354314}
   - {fileID: 832079686}
+  - {fileID: 585963690}
   - {fileID: 1339950768}
   - {fileID: 200093016}
   - {fileID: 968723260}
@@ -1383,7 +1438,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1339950769
 MonoBehaviour:
@@ -1397,7 +1452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea0bb658753e7645874ba1495d82946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: Inside the box is a small necklace made from sea shells, and a Birthday
+    Card.
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &1378229304
@@ -1585,7 +1641,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75447ac833115b347ad7700a0e601255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: 'You walk towards the small door on the ground. Upon opening you notice
+    an old ladder going down to a small room.
+
+    There is a key at the corner
+    of the room. You grab the Key.
+
+'
   repeatingText: {fileID: 0}
   nextStates: []
 --- !u!1 &1414741948
@@ -2071,7 +2133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: 
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: 78484fd8ff2facf449f3fae84de7545f, type: 2}
   nextStates: []
 --- !u!1 &1960104771
 GameObject:
@@ -2117,7 +2179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: 
-  repeatingText: {fileID: 0}
+  repeatingText: {fileID: 11400000, guid: 78484fd8ff2facf449f3fae84de7545f, type: 2}
   nextStates: []
 --- !u!1 &2031009203
 GameObject:

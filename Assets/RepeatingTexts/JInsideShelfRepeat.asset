@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e44bb75f0ca73274ab398524ea18e356, type: 3}
-  m_Name: BMainStreetRepeating
+  m_Name: JInsideShelfRepeat
   m_EditorClassIdentifier: 
-  repeatingTextOne: "you head back to main street.\r"
-  repeatingTextEnd: "On your right is a storage shed.\r\nThere is an underground
-    bunker on the far end of the street.\r"
+  repeatingTextOne: 
+  repeatingTextEnd: 'Inside the shelf are a small box and a worn-out school bag. '
