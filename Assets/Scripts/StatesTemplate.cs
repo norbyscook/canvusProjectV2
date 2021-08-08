@@ -63,20 +63,27 @@ namespace CanvasProject
             // add location text
             text += "Current Location: " + currentState.lable + "\n";
 
+            text += LineBreak();
+
             // add repeating text if repeating text not null reference
-            if (repeatingText != null)
+            if (repeatingText != null && repeatingText.textOne != "")
             {
                 text += repeatingText.textOne + "\n";
             }
 
-            // add story text
+            // add story text if there is any
+            if (currentState.story != "")
+            {
             text += currentState.story + "\n";
+            }
 
             // add repeating text if repeating text not null reference
-            if (repeatingText != null)
+            if (repeatingText != null && repeatingText.textEnd != "")
             {
                 text += repeatingText.textEnd + "\n";
             }
+
+            text += LineBreak();
 
             // add next states only if next states is not empty
             if (nextStates.Length != 0)
@@ -91,6 +98,16 @@ namespace CanvasProject
 
             // return string be displayed
             return text;
+        }
+
+        protected string LineBreak()
+        {
+            string text = "";
+            for(int i = 0; i < 100; i++)
+            {
+                text += "-";
+            }
+            return text + "\n";
         }
         #endregion
 

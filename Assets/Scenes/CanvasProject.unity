@@ -152,7 +152,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4025530
 MonoBehaviour:
@@ -202,7 +202,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &26986239
 MonoBehaviour:
@@ -250,7 +250,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 31
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &70708765
 MonoBehaviour:
@@ -268,7 +268,8 @@ MonoBehaviour:
     feeling as dizzy this time, you decide to walk into the room. Another flight
     of stairs will lead you deeper still. You take a deep breath and continue downwards.
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 873005162}
 --- !u!1 &80252727
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +299,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &80252729
 MonoBehaviour:
@@ -347,7 +348,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &147803429
 MonoBehaviour:
@@ -394,7 +395,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 30
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &175345099
 MonoBehaviour:
@@ -412,7 +413,56 @@ MonoBehaviour:
     dizzy. \u201CI need to find something to help me with the chemicals,\u201D you
     thought... \r\nYou quickly go back up to get some fresh air.\r"
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 1667495478}
+--- !u!1 &175783779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 175783780}
+  - component: {fileID: 175783781}
+  m_Layer: 0
+  m_Name: J2LockedShelf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &175783780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175783779}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.673401, y: -28.7565, z: -4.416733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &175783781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175783779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96089261cd0cf94dae5f5843644ae7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: c7582a50fa7730e4594f77c6b534ed1c, type: 2}
+  nextStates:
+  - {fileID: 1339950769}
+  - {fileID: 200093017}
 --- !u!1 &200093015
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +492,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 36
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &200093017
 MonoBehaviour:
@@ -458,7 +508,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: Inside the school bag is a book.
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 968723261}
 --- !u!1 &317038556
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,7 +539,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &317038558
 MonoBehaviour:
@@ -507,6 +558,7 @@ MonoBehaviour:
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1907091914}
+  - {fileID: 26986239}
 --- !u!1 &419066382
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,7 +750,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &544418542
 MonoBehaviour:
@@ -746,7 +798,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 34
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &585963691
 MonoBehaviour:
@@ -762,7 +814,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 4796802854277a1498ea8c5c23ee05ab, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 1339950769}
+  - {fileID: 200093017}
 --- !u!1 &612232720
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,7 +846,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 28
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &612232722
 MonoBehaviour:
@@ -808,7 +862,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: It seems to be a bit louder than it was before?
   repeatingText: {fileID: 11400000, guid: 78484fd8ff2facf449f3fae84de7545f, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 70708765}
 --- !u!1 &614063287
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,7 +893,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &614063289
 MonoBehaviour:
@@ -986,7 +1041,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &688860032
 MonoBehaviour:
@@ -1034,7 +1089,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 33
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &832079687
 MonoBehaviour:
@@ -1050,7 +1105,104 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: 'You walk towards the shelf and open it. '
   repeatingText: {fileID: 11400000, guid: 4796802854277a1498ea8c5c23ee05ab, type: 2}
-  nextStates: []
+  nextStates:
+  - {fileID: 1339950769}
+  - {fileID: 200093017}
+  - {fileID: 317038558}
+--- !u!1 &873005160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 873005161}
+  - component: {fileID: 873005162}
+  m_Layer: 0
+  m_Name: End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &873005161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873005160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &873005162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873005160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: "Thank you for playing my game! :)\r\n\r\nPress 1 to Restart!\r"
+  repeatingText: {fileID: 0}
+  nextStates:
+  - {fileID: 1788884063}
+--- !u!1 &956644753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956644754}
+  - component: {fileID: 956644755}
+  m_Layer: 0
+  m_Name: E1LockedDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956644754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956644753}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.673401, y: -28.7565, z: -4.416733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &956644755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956644753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96bea843ec3f74d4ea89ef9f1f598244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
+  nextStates:
+  - {fileID: 1125301206}
 --- !u!1 &968723259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,7 +1232,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 37
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &968723261
 MonoBehaviour:
@@ -1098,7 +1250,8 @@ MonoBehaviour:
     picture of the sunset at the ocean, another one with children playing with their
     friends.\r\nThere are some more family photos.\r\n...\r"
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 585963691}
 --- !u!1 &1019726958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +1281,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1019726960
 MonoBehaviour:
@@ -1176,7 +1329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 27
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1021670451
 MonoBehaviour:
@@ -1224,7 +1377,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1047348634
 MonoBehaviour:
@@ -1273,7 +1426,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1125301206
 MonoBehaviour:
@@ -1297,6 +1450,7 @@ MonoBehaviour:
   nextStates:
   - {fileID: 688860032}
   - {fileID: 1910209287}
+  - {fileID: 956644755}
 --- !u!1 &1207400674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,7 +1480,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 29
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1207400676
 MonoBehaviour:
@@ -1344,7 +1498,8 @@ MonoBehaviour:
     dizzy and realize that something is wrong. You quickly go back up to get some
     fresh air.
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 688860032}
 --- !u!1 &1309817571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,6 +1545,7 @@ Transform:
   - {fileID: 1390522944}
   - {fileID: 1769412419}
   - {fileID: 1825085160}
+  - {fileID: 873005161}
   - {fileID: 1788884064}
   - {fileID: 1740157473}
   - {fileID: 1019726959}
@@ -1412,6 +1568,8 @@ Transform:
   - {fileID: 1907091913}
   - {fileID: 2031009204}
   - {fileID: 614063288}
+  - {fileID: 956644754}
+  - {fileID: 1318793361}
   - {fileID: 1910209286}
   - {fileID: 1960104772}
   - {fileID: 1021670450}
@@ -1422,11 +1580,59 @@ Transform:
   - {fileID: 1401354314}
   - {fileID: 832079686}
   - {fileID: 585963690}
+  - {fileID: 175783780}
   - {fileID: 1339950768}
   - {fileID: 200093016}
   - {fileID: 968723260}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1318793359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318793361}
+  - component: {fileID: 1318793360}
+  m_Layer: 0
+  m_Name: E2LockedDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1318793360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318793359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96bea843ec3f74d4ea89ef9f1f598244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
+  nextStates:
+  - {fileID: 1456113528}
+--- !u!4 &1318793361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318793359}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.673401, y: -28.7565, z: -4.416733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339950767
 GameObject:
@@ -1457,7 +1663,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 35
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1339950769
 MonoBehaviour:
@@ -1474,7 +1680,8 @@ MonoBehaviour:
   stateStory: Inside the box is a small necklace made from sea shells, and a Birthday
     Card.
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 585963691}
 --- !u!1 &1378229304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,7 +1711,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1378229306
 MonoBehaviour:
@@ -1554,7 +1761,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1390322601
 MonoBehaviour:
@@ -1601,7 +1808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "Part 1 \r\nThe Descent\r\n\r\nPress 1 to Start\r\n"
+  stateStory: "Part 1 \r\nThe Descent\r\n\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
+    1 to Start\r\n"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1769412418}
@@ -1648,7 +1856,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 32
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1401354315
 MonoBehaviour:
@@ -1665,12 +1873,13 @@ MonoBehaviour:
   stateStory: 'You walk towards the small door on the ground. Upon opening you notice
     an old ladder going down to a small room.
 
-    There is a key at the corner
-    of the room. You grab the Key.
+    There is a key at the corner of
+    the room. You grab the Key.
 
 '
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 80252729}
 --- !u!1 &1414741948
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,7 +1909,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1414741950
 MonoBehaviour:
@@ -1748,7 +1957,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1456113528
 MonoBehaviour:
@@ -1767,6 +1976,7 @@ MonoBehaviour:
   nextStates:
   - {fileID: 1667495478}
   - {fileID: 1960104773}
+  - {fileID: 1318793360}
   - {fileID: 1401354315}
 --- !u!1 &1483106297
 GameObject:
@@ -1797,7 +2007,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1483106299
 MonoBehaviour:
@@ -1847,7 +2057,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1667495478
 MonoBehaviour:
@@ -1915,7 +2125,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1740157472
 GameObject:
@@ -1946,7 +2156,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1740157474
 MonoBehaviour:
@@ -2000,7 +2210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: "Decades into the climate crisis, humanity is trying to find a way
     to survive in the hot desolate world.\r\nMany have died over the decades. Survivors
-    have made shelters and villages out of the remnants of the past.\r\n\r\nPress
+    have made shelters and villages out of the remnants of the past.\r\n\r\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
     1 to Continue\r"
   repeatingText: {fileID: 0}
   nextStates:
@@ -2065,7 +2275,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1825085159
 GameObject:
@@ -2115,8 +2325,8 @@ MonoBehaviour:
     area. Some say the force is evil. Others say that it will be our deliverance
     from this broken world. Your village has caught one of the deadly diseases that
     recently spread. Your younger brother, who is now your only family member, has
-    also caught the disease. You are desperate to find a cure. \r\n\r\nPress 1 to
-    Continue\r"
+    also caught the disease. You are desperate to find a cure. \r\n\r\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
+    1 to Continue\r"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1788884063}
@@ -2149,7 +2359,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1907091914
 MonoBehaviour:
@@ -2169,6 +2379,7 @@ MonoBehaviour:
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 317038558}
+  - {fileID: 832079687}
 --- !u!1 &1910209285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,7 +2409,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 25
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1910209287
 MonoBehaviour:
@@ -2246,7 +2457,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 26
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1960104773
 MonoBehaviour:
@@ -2294,7 +2505,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2031009205
 MonoBehaviour:
