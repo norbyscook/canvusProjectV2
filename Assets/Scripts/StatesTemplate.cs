@@ -38,18 +38,20 @@ namespace CanvasProject
         // called in MainScript to help with Changing States
         public StatesTemplate ManageStates(StatesTemplate currentState)
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
+
+            // get user input
+            int n = 0;
+            string playerInput = "";
+            if (playerInput == "")
             {
-                currentState = nextStates[0];
+                playerInput = Input.inputString;
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
+            // if conversion from string to int worked, switch states
+            if (int.TryParse(playerInput, out n))
             {
-                currentState = nextStates[1];
+                currentState = nextStates[n];
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
-            {
-                currentState = nextStates[2];
-            }
+            
             return currentState;
         }
 
