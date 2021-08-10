@@ -26,8 +26,7 @@ namespace CanvasProject
 
         #endregion
 
-        #region Functions
-
+        #region Manage States
         // called in MainScript to help with Changing States
         public StatesTemplate ManageStates(StatesTemplate currentState)
         {
@@ -64,14 +63,13 @@ namespace CanvasProject
             {
                 return true;
             }
-            else
-            {
                 return false;
-            }
-
         }
+        #endregion
 
+        #region Display Text
 
+        // called in MainScript to help with text display
         // displays the text according to the state
         // can be overridden to change text displays
         virtual public string GetDisplayText(StatesTemplate currentState)
@@ -83,26 +81,30 @@ namespace CanvasProject
 
             text += LineBreak();
 
-            // add repeating text if repeating text not null reference
-            if (repeatingText != null && repeatingText.textOne != "")
-            {
-                text += repeatingText.textOne + "\n";
-            }
+            // add repeating text 
+            text += AddRepeatingTxt(repeatingText.textOne) + "\n";
 
             // add story text if there is any
             if (currentState.story != "")
             {
-            text += currentState.story + "\n";
+                text += currentState.story + "\n";
             }
 
-            // add repeating text if repeating text not null reference
-            if (repeatingText != null && repeatingText.textEnd != "")
-            {
-                text += repeatingText.textEnd + "\n";
-            }
+            // add repeating text 
+            text += AddRepeatingTxt(repeatingText.textEnd) + "\n";
 
             text += LineBreak();
 
+            text += AddNextStates();
+
+            // return string be displayed
+            return text;
+        }
+
+        // add next avaliable options to text
+        private string AddNextStates()
+        {
+            string text = "";
             // add next states only if next states is not empty
             if (nextStates.Length != 0)
             {
@@ -110,16 +112,21 @@ namespace CanvasProject
                 for (int i = 0; i < nextStates.Length; i++)
                 {
                     // add next locations as options
-                    text += "\npress " + (i + 1) + " to go to " + currentState.nextStates[i].lable;
+                    text += "\npress " + (i + 1) + " to go to " + nextStates[i].lable;
                 }
             }
-
-            // return string be displayed
             return text;
         }
 
-
-
+        // add repeating text of textVersion if there is any
+        private string AddRepeatingTxt(string textVersion)
+        {
+            if (repeatingText != null && textVersion != "")
+            {
+                return textVersion + "\n";
+            }
+            return "";
+        }
 
         protected string LineBreak()
         {
