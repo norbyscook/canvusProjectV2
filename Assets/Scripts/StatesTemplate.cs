@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System;
 using UnityEngine;
 namespace CanvasProject
 {
@@ -32,18 +31,44 @@ namespace CanvasProject
         // called in MainScript to help with Changing States
         public StatesTemplate ManageStates(StatesTemplate currentState)
         {
-
             // get user input
             // get player input
-            char input = Console.ReadKey().KeyChar;
-            int n = 0;
-            if (int.TryParse((input.ToString()), out n))
+            if (Input.anyKeyDown) // if user press any key once
+            {
+                currentState = ChangeState(currentState);
+            }
+            return currentState;
+
+        }
+
+        // check for user input and manage state
+        private StatesTemplate ChangeState(StatesTemplate currentState)
+        {
+            string input = Input.inputString;
+            // if input is valid
+            // convert to interger and change state
+            if (InputValid(input, out int n))
             {
                 // manage state
-                currentState = nextStates[n];
+                currentState = nextStates[n - 1];
+            }
+            return currentState;
+        }
+
+        // check to see if input is valid
+        private bool InputValid(string input, out int n)
+        {
+            n = 0;
+
+            if (int.TryParse((input), out n) && n <= nextStates.Length)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
 
-            return currentState;
         }
 
 
@@ -92,6 +117,9 @@ namespace CanvasProject
             // return string be displayed
             return text;
         }
+
+
+
 
         protected string LineBreak()
         {
