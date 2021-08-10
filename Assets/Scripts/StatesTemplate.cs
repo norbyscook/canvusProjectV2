@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 namespace CanvasProject
 {
@@ -16,17 +17,10 @@ namespace CanvasProject
 
         // varaible to take in  the repeating texts
         [SerializeField] protected RepeatingTextTemplate repeatingText;
-        public RepeatingTextTemplate repeatTxt
-        {
-            get { return repeatingText; }
-        }
+
 
         // variable to take in the next possible choices the player can make
         [SerializeField] protected StatesTemplate[] nextStates;
-        public StatesTemplate[] next
-        {
-            get { return nextStates; }
-        }
 
         // variable for storing location of state
         protected string lable = "";
@@ -40,18 +34,15 @@ namespace CanvasProject
         {
 
             // get user input
+            // get player input
+            char input = Console.ReadKey().KeyChar;
             int n = 0;
-            string playerInput = "";
-            if (playerInput == "")
+            if (int.TryParse((input.ToString()), out n))
             {
-                playerInput = Input.inputString;
-            }
-            // if conversion from string to int worked, switch states
-            if (int.TryParse(playerInput, out n))
-            {
+                // manage state
                 currentState = nextStates[n];
             }
-            
+
             return currentState;
         }
 
