@@ -12,6 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e44bb75f0ca73274ab398524ea18e356, type: 3}
   m_Name: BMainStreetRepeat
   m_EditorClassIdentifier: 
-  repeatingTextOne: "you head back to main street.\r"
-  repeatingTextEnd: "On your right is a storage shed.\r\nThere is an underground
-    bunker on the far end of the street.\r"
+  repeatingTxt: []

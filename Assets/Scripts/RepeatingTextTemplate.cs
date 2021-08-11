@@ -8,10 +8,12 @@ namespace CanvasProject
     public class RepeatingTextTemplate : ScriptableObject
     {
         // to store repeating texts in the story so that we don't have to rewrite them
-        [SerializeField] protected Dictionary<string, string> repeatingTxt = new Dictionary<string, string>()
-        {
-            ["0"] = ""
-        };
-
+        // 0 will be the first, 1 will be the last.
+        // n > 1 will be any text between the first and last. 
+        [TextArea(10, 14)] [SerializeField] protected string[] repeatingTxt;
+        public string[] text
+        { 
+            get { return repeatingTxt; }
+        }
     }
 }

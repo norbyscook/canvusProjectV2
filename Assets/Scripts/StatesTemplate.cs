@@ -81,9 +81,8 @@ namespace CanvasProject
 
             text += LineBreak();
 
-            // TODO fix function error
             // add repeating text 
-            // text += AddRepeatingTxt(repeatingText.textOne) + "\n";
+            text += AddRepeatingTxt(0);
 
             // add story text if there is any
             if (currentState.story != "")
@@ -91,9 +90,8 @@ namespace CanvasProject
                 text += currentState.story + "\n";
             }
 
-            // TODO fix function error
             // add repeating text 
-            // text += AddRepeatingTxt(repeatingText.textEnd) + "\n";
+            text += AddRepeatingTxt(1);
 
             text += LineBreak();
 
@@ -121,11 +119,17 @@ namespace CanvasProject
         }
 
         // add repeating text of textVersion if there is any
-        private string AddRepeatingTxt(string textVersion)
+        // for the txtIndex:
+            // 0 will be the first, 1 will be the last.
+            // n > 1 will be any text between the first and last.
+        private string AddRepeatingTxt(int txtIndex)
         {
-            if (repeatingText != null && textVersion != "")
+            // if this state has repeating text
+            // and the index is within the bounds of the array
+            if (repeatingText != null && txtIndex < repeatingText.text.Length)
             {
-                return textVersion + "\n";
+                // add repeating text to text
+                return repeatingText.text[txtIndex] + "\n";
             }
             return "";
         }
