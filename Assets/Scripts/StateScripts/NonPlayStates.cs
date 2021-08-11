@@ -5,12 +5,12 @@ namespace CanvasProject
 {
     public class NonPlayStates : StatesTemplate
     {
-        public override string GetDisplayText(StatesTemplate currentState)
+        public override string GetDisplayText()
         {
             // return story text if state text is not null
             if (stateStory != null)
             {
-                return currentState.story;
+                return stateStory;
             }
             return "";
         }

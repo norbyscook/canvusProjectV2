@@ -21,7 +21,7 @@ namespace CanvasProject
         void Update()
         {
             // update text
-            bodyText.text = currentState.GetDisplayText(currentState);
+            bodyText.text = currentState.GetDisplayText();
             // change state
             currentState = currentState.ManageStates(currentState);
         }

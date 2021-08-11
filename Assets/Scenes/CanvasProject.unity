@@ -172,6 +172,7 @@ MonoBehaviour:
   nextStates:
   - {fileID: 1667495478}
   - {fileID: 1960104773}
+  - {fileID: 1318793360}
   - {fileID: 1401354315}
 --- !u!1 &26986237
 GameObject:
@@ -459,7 +460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: 
-  repeatingText: {fileID: 11400000, guid: c7582a50fa7730e4594f77c6b534ed1c, type: 2}
+  repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
   nextStates:
   - {fileID: 1339950769}
   - {fileID: 200093017}
@@ -492,7 +493,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 40
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &200093017
 MonoBehaviour:
@@ -1232,7 +1233,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 41
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &968723261
 MonoBehaviour:
@@ -1397,6 +1398,54 @@ MonoBehaviour:
   nextStates:
   - {fileID: 147803429}
   - {fileID: 80252729}
+--- !u!1 &1049137424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1049137425}
+  - component: {fileID: 1049137426}
+  m_Layer: 0
+  m_Name: J3LockedShelf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1049137425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049137424}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.673401, y: -28.7565, z: -4.416733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1049137426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049137424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96089261cd0cf94dae5f5843644ae7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
+  nextStates:
+  - {fileID: 1339950769}
+  - {fileID: 200093017}
 --- !u!1 &1125301204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,6 +1630,8 @@ Transform:
   - {fileID: 832079686}
   - {fileID: 585963690}
   - {fileID: 175783780}
+  - {fileID: 1049137425}
+  - {fileID: 1631695806}
   - {fileID: 1339950768}
   - {fileID: 200093016}
   - {fileID: 968723260}
@@ -1663,7 +1714,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 39
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1339950769
 MonoBehaviour:
@@ -2028,6 +2079,54 @@ MonoBehaviour:
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1019726960}
+--- !u!1 &1631695805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631695806}
+  - component: {fileID: 1631695807}
+  m_Layer: 0
+  m_Name: J4LockedShelf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1631695806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631695805}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.673401, y: -28.7565, z: -4.416733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1631695807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631695805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96089261cd0cf94dae5f5843644ae7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
+  nextStates:
+  - {fileID: 1339950769}
+  - {fileID: 200093017}
 --- !u!1 &1667495476
 GameObject:
   m_ObjectHideFlags: 0

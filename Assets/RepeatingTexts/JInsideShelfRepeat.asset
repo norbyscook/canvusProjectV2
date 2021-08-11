@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e44bb75f0ca73274ab398524ea18e356, type: 3}
   m_Name: JInsideShelfRepeat
   m_EditorClassIdentifier: 
-  repeatingTextOne: 
-  repeatingTextEnd: 'Inside the shelf are a small box and a worn-out school bag. '
+  repeatingTxt:
+  - 'Inside the shelf are a small box and a worn-out school bag. '

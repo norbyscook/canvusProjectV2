@@ -9,10 +9,7 @@ namespace CanvasProject
 
         // variable to take in  the current state text
         [TextArea(10, 14)] [SerializeField] protected string stateStory;
-        public string story
-        {
-            get { return stateStory; }
-        }
+
 
         // varaible to take in  the repeating texts
         [SerializeField] protected RepeatingTextTemplate repeatingText;
@@ -34,8 +31,10 @@ namespace CanvasProject
             // get player input
             if (Input.anyKeyDown) // if user press any key once
             {
-                currentState = ChangeState(currentState);
+                // return new state
+                return ChangeState(currentState);
             }
+            // if not return current state
             return currentState;
 
         }
@@ -43,14 +42,15 @@ namespace CanvasProject
         // check for user input and manage state
         private StatesTemplate ChangeState(StatesTemplate currentState)
         {
+            // get user input
             string input = Input.inputString;
-            // if input is valid
-            // convert to interger and change state
+            // if user input is valid, store input in n
             if (InputValid(input, out int n))
             {
-                // manage state
-                currentState = nextStates[n - 1];
+                // return new state based on n
+                return nextStates[n - 1];
             }
+            // if not return current state
             return currentState;
         }
 
@@ -72,12 +72,12 @@ namespace CanvasProject
         // called in MainScript to help with text display
         // displays the text according to the state
         // can be overridden to change text displays
-        virtual public string GetDisplayText(StatesTemplate currentState)
+        virtual public string GetDisplayText()
         {
             // variable to concatinate strings to be displayed
             string text = "";
             // add location text
-            text += "Current Location: " + currentState.lable + "\n";
+            text += "Current Location: " + lable + "\n";
 
             text += LineBreak();
 
@@ -85,9 +85,9 @@ namespace CanvasProject
             text += AddRepeatingTxt(0);
 
             // add story text if there is any
-            if (currentState.story != "")
+            if (stateStory != "")
             {
-                text += currentState.story + "\n";
+                text += stateStory + "\n";
             }
 
             // add repeating text 
@@ -128,8 +128,13 @@ namespace CanvasProject
             // and the index is within the bounds of the array
             if (repeatingText != null && txtIndex < repeatingText.text.Length)
             {
-                // add repeating text to text
-                return repeatingText.text[txtIndex] + "\n";
+                // and the string at that index is not empty.
+                if (repeatingText.text[txtIndex] != "")
+                {
+                    // add repeating text to text
+                    return repeatingText.text[txtIndex] + "\n";
+                }
+                
             }
             return "";
         }

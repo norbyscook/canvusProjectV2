@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e44bb75f0ca73274ab398524ea18e356, type: 3}
   m_Name: CBunckerRepeat
   m_EditorClassIdentifier: 
-  repeatingTextOne: 
-  repeatingTextEnd: "At the bottom of the stairs of the bunker, there is a locked
-    door. \r\nOn the left there is a long hallway. At the end of it is a thick metal
-    door with a bulky round window. \r\nThere also seems to be a small trap door
-    on the floor along the hallway.\r"
+  repeatingTxt:
+  - 
+  - "At the bottom of the stairs of the bunker, there is a locked door. \r\nOn the
+    left there is a long hallway. At the end of it is a thick metal door with a bulky
+    round window. \r\nThere also seems to be a small trap door on the floor along
+    the hallway.\r"

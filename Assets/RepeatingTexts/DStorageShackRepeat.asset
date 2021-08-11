@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e44bb75f0ca73274ab398524ea18e356, type: 3}
   m_Name: DStorageShackRepeat
   m_EditorClassIdentifier: 
-  repeatingTextOne: You walk into the storage shack. You have everything you need.
-  repeatingTextEnd: 
+  repeatingTxt:
+  - You walk into the storage shack. You have everything you need.
