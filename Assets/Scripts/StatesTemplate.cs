@@ -55,6 +55,7 @@ namespace CanvasProject
         }
 
         // check to see if input is valid
+        // if so out input as a number 
         private bool InputValid(string input, out int n)
         {
             n = 0;
