@@ -81,8 +81,9 @@ namespace CanvasProject
 
             text += LineBreak();
 
+            // TODO fix function error
             // add repeating text 
-            text += AddRepeatingTxt(repeatingText.textOne) + "\n";
+            // text += AddRepeatingTxt(repeatingText.textOne) + "\n";
 
             // add story text if there is any
             if (currentState.story != "")
@@ -90,8 +91,9 @@ namespace CanvasProject
                 text += currentState.story + "\n";
             }
 
+            // TODO fix function error
             // add repeating text 
-            text += AddRepeatingTxt(repeatingText.textEnd) + "\n";
+            // text += AddRepeatingTxt(repeatingText.textEnd) + "\n";
 
             text += LineBreak();
 
