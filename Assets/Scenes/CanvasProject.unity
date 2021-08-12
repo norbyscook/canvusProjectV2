@@ -909,7 +909,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: "You open the locked door and inside is another storage unit. It\u2019s
-    dark and musty. You manage to find an unused gas mask. Perhaps this will be useful."
+    dark and musty. You manage to find an unused gas mask. Perhaps this will be useful.
+    You also find a small rusty key on the ground. You wonder if this can be useful..."
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 26986239}
@@ -2620,8 +2621,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: "You walk into the storage shack. You remembered that there is a locked
-    shelf at the far end of the shack.\r\nYou wonder if the same key for the trap
-    door works for the shelf.\r"
+    shelf at the far end of the shack.\r\nYou wonder if the small rusty  key you
+    found inside the locked door of the bunker will open it.\r"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 317038558}
