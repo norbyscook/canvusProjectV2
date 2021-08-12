@@ -1251,7 +1251,8 @@ MonoBehaviour:
   stateStory: "X( You have died. \nRIP\r\n\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
     1 to Start Over.\r"
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 1788884063}
 --- !u!1 &968723259
 GameObject:
   m_ObjectHideFlags: 0
