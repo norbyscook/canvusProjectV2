@@ -367,6 +367,7 @@ MonoBehaviour:
   repeatingText: {fileID: 11400000, guid: 853966d59f2334449af8295baeeee470, type: 2}
   nextStates:
   - {fileID: 1047348634}
+  - {fileID: 1631695807}
 --- !u!1 &175345097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,7 +1157,7 @@ MonoBehaviour:
   stateStory: "Thank you for playing my game! :)\r\n\r\nPress 1 to Restart!\r"
   repeatingText: {fileID: 0}
   nextStates:
-  - {fileID: 1788884063}
+  - {fileID: 1390522943}
 --- !u!1 &956644753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,7 +1204,53 @@ MonoBehaviour:
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
   nextStates:
-  - {fileID: 1125301206}
+  - {fileID: 1713100625}
+--- !u!1 &959930425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 959930426}
+  - component: {fileID: 959930427}
+  m_Layer: 0
+  m_Name: NDeath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &959930426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959930425}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.673401, y: -28.7565, z: -4.416733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &959930427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959930425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: "X( You have died. \nRIP\r\n\nPress 1 to Start Over.\r"
+  repeatingText: {fileID: 0}
+  nextStates: []
 --- !u!1 &968723259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,7 +1595,7 @@ MonoBehaviour:
     fresh air.
   repeatingText: {fileID: 0}
   nextStates:
-  - {fileID: 688860032}
+  - {fileID: 0}
 --- !u!1 &1309817571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1682,7 @@ Transform:
   - {fileID: 1339950768}
   - {fileID: 200093016}
   - {fileID: 968723260}
+  - {fileID: 959930426}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1830,6 +1878,7 @@ MonoBehaviour:
   repeatingText: {fileID: 11400000, guid: 853966d59f2334449af8295baeeee470, type: 2}
   nextStates:
   - {fileID: 1667495478}
+  - {fileID: 1049137426}
 --- !u!1 &1390522942
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,6 +2128,7 @@ MonoBehaviour:
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1019726960}
+  - {fileID: 175783781}
 --- !u!1 &1631695805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2212,6 +2262,7 @@ MonoBehaviour:
   nextStates:
   - {fileID: 688860032}
   - {fileID: 1910209287}
+  - {fileID: 956644755}
 --- !u!4 &1713100626
 Transform:
   m_ObjectHideFlags: 0
@@ -2623,3 +2674,4 @@ MonoBehaviour:
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1378229306}
+  - {fileID: 585963691}
