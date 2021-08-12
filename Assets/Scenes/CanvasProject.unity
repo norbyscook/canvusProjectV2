@@ -2352,10 +2352,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd11e06faa52cfd4ebe2bdfdec36481b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "At the bottom of the stairs, there seems to be a locked door. \r\nYou
-    sense a faint glow coming from the left. You see a faint green light coming from
-    a second door at the end of another hallway. It is a thick metal door with a
-    bulky round window. \r"
+  stateStory: "You go back to the bottom of the stairs, there seems to be a locked
+    door. \r\nYou sense a faint glow coming from the left. You see a faint green
+    light coming from a second door at the end of another hallway. It is a thick
+    metal door with a bulky round window. \r"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 688860032}
