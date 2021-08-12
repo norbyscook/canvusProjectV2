@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace CanvasProject
 {
-    public class ELockedDoorInside : StatesTemplate
+    public class ELockedDoor : StatesTemplate
     {
-        public ELockedDoorInside()
+        public ELockedDoor()
         {
             lable = "Locked Door";
         }
