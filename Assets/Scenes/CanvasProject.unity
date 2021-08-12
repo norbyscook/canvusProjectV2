@@ -265,9 +265,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c8ea92742b0584da2d6b98c309cd77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: The door is not as heavy as before, but the air is still thick. Not
+  stateStory: 'The door is not as heavy as before, but the air is still thick. Not
     feeling as dizzy this time, you decide to walk into the room. Another flight
     of stairs will lead you deeper still. You take a deep breath and continue downwards.
+
+
+    End
+    of Part 1'
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 873005162}
@@ -1154,7 +1158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4436a717e5c4ce445a8efd2c00ba0ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "Thank you for playing my game! :)\r\n\r\nPress 1 to Restart!\r"
+  stateStory: "That is it for now!!!\n\nThank you for playing my game! :)\r\n\r\nPress
+    1 to Restart!\r"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1390522943}
