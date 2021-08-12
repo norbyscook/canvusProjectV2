@@ -4,11 +4,11 @@ using UnityEngine;
 
 namespace CanvasProject
 {
-    public class KInsideBox : StatesTemplate
+    public class NDeath : NonPlayStates
     {
-        public KInsideBox()
+        public NDeath()
         {
-            lable = "Box";
+            lable = "...";
         }
     }
 }

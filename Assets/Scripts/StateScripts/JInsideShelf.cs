@@ -8,7 +8,7 @@ namespace CanvasProject
     {
         public JInsideShelf()
         {
-            lable = "Inside Shelf";
+            lable = "Shelf";
         }
     }
 }

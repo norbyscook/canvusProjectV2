@@ -251,7 +251,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &70708765
 MonoBehaviour:
@@ -397,7 +397,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 33
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &175345099
 MonoBehaviour:
@@ -413,10 +413,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: "You slowly open the door, but it is heavy. The air is thick. You feel
     dizzy. \u201CI need to find something to help me with the chemicals,\u201D you
-    thought... \r\nYou quickly go back up to get some fresh air.\r"
+    thought... \r\nBut it is too late...\r\n"
   repeatingText: {fileID: 0}
   nextStates:
-  - {fileID: 1667495478}
+  - {fileID: 959930427}
 --- !u!1 &175783779
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +446,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 38
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &175783781
 MonoBehaviour:
@@ -463,8 +463,7 @@ MonoBehaviour:
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
   nextStates:
-  - {fileID: 1339950769}
-  - {fileID: 200093017}
+  - {fileID: 1483106299}
 --- !u!1 &200093015
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,7 +493,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 42
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &200093017
 MonoBehaviour:
@@ -800,7 +799,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 37
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &585963691
 MonoBehaviour:
@@ -819,6 +818,7 @@ MonoBehaviour:
   nextStates:
   - {fileID: 1339950769}
   - {fileID: 200093017}
+  - {fileID: 1235494086}
 --- !u!1 &612232720
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +848,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 31
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &612232722
 MonoBehaviour:
@@ -895,7 +895,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 25
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &614063289
 MonoBehaviour:
@@ -1091,7 +1091,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 36
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &832079687
 MonoBehaviour:
@@ -1110,7 +1110,7 @@ MonoBehaviour:
   nextStates:
   - {fileID: 1339950769}
   - {fileID: 200093017}
-  - {fileID: 317038558}
+  - {fileID: 1097194598}
 --- !u!1 &873005160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 26
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &956644755
 MonoBehaviour:
@@ -1234,7 +1234,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 44
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &959930427
 MonoBehaviour:
@@ -1248,9 +1248,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "X( You have died. \nRIP\r\n\nPress 1 to Start Over.\r"
+  stateStory: "X( You have died. \nRIP\r\n\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
+    1 to Start Over.\r"
   repeatingText: {fileID: 0}
-  nextStates: []
+  nextStates:
+  - {fileID: 1788884063}
 --- !u!1 &968723259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,7 +1282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 43
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &968723261
 MonoBehaviour:
@@ -1377,7 +1379,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 30
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1021670451
 MonoBehaviour:
@@ -1474,7 +1476,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 39
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1049137426
 MonoBehaviour:
@@ -1491,8 +1493,55 @@ MonoBehaviour:
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
   nextStates:
-  - {fileID: 1339950769}
-  - {fileID: 200093017}
+  - {fileID: 1390322601}
+--- !u!1 &1097194597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097194599}
+  - component: {fileID: 1097194598}
+  m_Layer: 0
+  m_Name: D4.1StorageShack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1097194598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097194597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da971fc12a2a8c843acd5e8b3d54730a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 71ef8ec0d080e934b84dd0bf0a1c2948, type: 2}
+  nextStates:
+  - {fileID: 317038558}
+  - {fileID: 832079687}
+--- !u!4 &1097194599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097194597}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1125301204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,7 +1625,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 32
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1207400676
 MonoBehaviour:
@@ -1591,11 +1640,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: You slowly open the door, but it is heavy. The air is thick. You feel
-    dizzy and realize that something is wrong. You quickly go back up to get some
-    fresh air.
+    dizzy and realize that something is wrong. But it is too late...
   repeatingText: {fileID: 0}
   nextStates:
-  - {fileID: 0}
+  - {fileID: 959930427}
+--- !u!1 &1235494085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235494087}
+  - component: {fileID: 1235494086}
+  m_Layer: 0
+  m_Name: D5.1StorageShack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1235494086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235494085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da971fc12a2a8c843acd5e8b3d54730a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateStory: 
+  repeatingText: {fileID: 11400000, guid: 71ef8ec0d080e934b84dd0bf0a1c2948, type: 2}
+  nextStates:
+  - {fileID: 1378229306}
+  - {fileID: 585963691}
+--- !u!4 &1235494087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235494085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1309817573}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1309817571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,7 +1758,9 @@ Transform:
   - {fileID: 1390322600}
   - {fileID: 147803428}
   - {fileID: 1907091913}
+  - {fileID: 1097194599}
   - {fileID: 2031009204}
+  - {fileID: 1235494087}
   - {fileID: 614063288}
   - {fileID: 956644754}
   - {fileID: 1318793361}
@@ -1731,7 +1829,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 27
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339950767
 GameObject:
@@ -1762,7 +1860,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 41
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1339950769
 MonoBehaviour:
@@ -1956,7 +2054,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 35
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1401354315
 MonoBehaviour:
@@ -2158,7 +2256,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 40
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1631695807
 MonoBehaviour:
@@ -2175,8 +2273,7 @@ MonoBehaviour:
   stateStory: 
   repeatingText: {fileID: 11400000, guid: 413c663888f7d97489efe54dfd534128, type: 2}
   nextStates:
-  - {fileID: 1339950769}
-  - {fileID: 200093017}
+  - {fileID: 147803429}
 --- !u!1 &1667495476
 GameObject:
   m_ObjectHideFlags: 0
@@ -2559,7 +2656,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 28
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1910209287
 MonoBehaviour:
@@ -2607,7 +2704,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1960104773
 MonoBehaviour:
@@ -2655,7 +2752,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1309817573}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2031009205
 MonoBehaviour:
