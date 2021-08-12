@@ -554,8 +554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "The sun has set. The dark hills are outlined by a faint wisp of clouds,
-    tainted purple by the last rays of the sun.\r"
+  stateStory: 
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1907091914}
@@ -1151,7 +1150,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 873005160}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
+  m_Script: {fileID: 11500000, guid: 4436a717e5c4ce445a8efd2c00ba0ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: "Thank you for playing my game! :)\r\n\r\nPress 1 to Restart!\r"
@@ -1245,14 +1244,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 959930425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
+  m_Script: {fileID: 11500000, guid: 4436a717e5c4ce445a8efd2c00ba0ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: "X( You have died. \nRIP\r\n\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
     1 to Start Over.\r"
   repeatingText: {fileID: 0}
-  nextStates:
-  - {fileID: 1788884063}
+  nextStates: []
 --- !u!1 &968723259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,7 +1343,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: "The wall of smoke from the factories in the distance slowly rises
+    like dark demons against the red setting sun.\r"
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
@@ -1441,8 +1440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "The wall of smoke from the factories in the distance slowly rises
-    like dark demons against the red setting sun.\r"
+  stateStory: 
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 147803429}
@@ -2222,7 +2220,7 @@ MonoBehaviour:
   stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
     coming from the crumbling ceiling panels. The shed is a mess with lots of items
     inside.\r\nYou are not sure what you can do here.   However, there is a locked
-    shelf door at the far end of the shack\r."
+    shelf  at the far end of the shack\r."
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1019726960}
@@ -2317,7 +2315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: "The sun has set. The dark hills are outlined by a faint wisp of clouds,
+    tainted purple by the last rays of the sun.\r"
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1390322601}
