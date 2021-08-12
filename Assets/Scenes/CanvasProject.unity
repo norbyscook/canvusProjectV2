@@ -1061,7 +1061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: 
+  stateStory: "The wall of smoke from the factories in the distance slowly rises
+    like dark demons against the red setting sun.\r"
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 544418542}
@@ -1350,8 +1351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e2212db94ff21499d867455456bc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "The wall of smoke from the factories in the distance slowly rises
-    like dark demons against the red setting sun.\r"
+  stateStory: 
   repeatingText: {fileID: 11400000, guid: 1e508499848ba014b9ba913365853609, type: 2}
   nextStates:
   - {fileID: 1483106299}
