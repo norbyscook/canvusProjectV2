@@ -8,7 +8,7 @@ namespace CanvasProject
     {
         public MPhotoAlbum()
         {
-            lable = "Photo Album";
+            lable = "Book";
         }
     }
 }

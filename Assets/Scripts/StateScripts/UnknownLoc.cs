@@ -4,9 +4,9 @@ using UnityEngine;
 
 namespace CanvasProject
 {
-    public class NDeath : NonPlayStates
+    public class UnknownLoc : NonPlayStates
     {
-        public NDeath()
+        public UnknownLoc()
         {
             lable = "...";
         }
