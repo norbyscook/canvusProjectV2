@@ -167,8 +167,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: "You head back to the bunker. You have your flashlight now. \r\nYou
-    turn it on and head down the stairs into the dark abyss. \r"
-  repeatingText: {fileID: 11400000, guid: 5fd56a077225dac4a82712cb49ca3383, type: 2}
+    turn it on and head down the stairs into the dark abyss. \r\n\nAt the bottom
+    of the stairs of the bunker, there is a locked door. \r\nOn the left there is
+    a long hallway. At the end of it is a thick metal door with a bulky round window.
+    \r\nThere also seems to be a small trap door on the floor along the hallway.\r\n"
+  repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1667495478}
   - {fileID: 1960104773}
@@ -563,85 +566,6 @@ MonoBehaviour:
   nextStates:
   - {fileID: 1907091914}
   - {fileID: 26986239}
---- !u!1 &419066382
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 419066383}
-  - component: {fileID: 419066385}
-  - component: {fileID: 419066384}
-  m_Layer: 5
-  m_Name: StoryText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &419066383
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419066382}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0101281, y: 1.0101281, z: 1.0101281}
-  m_Children: []
-  m_Father: {fileID: 686404514}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2260, y: 1140}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &419066384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419066382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 300
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: New Text
---- !u!222 &419066385
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419066382}
-  m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,7 +758,7 @@ GameObject:
   - component: {fileID: 589982452}
   - component: {fileID: 589982451}
   m_Layer: 5
-  m_Name: StoryText2
+  m_Name: StoryText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -879,17 +803,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: \.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 04bd96507e091334d8713da1287c732b, type: 2}
+  m_sharedMaterial: {fileID: -8627475578967999393, guid: 04bd96507e091334d8713da1287c732b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294962399
+  m_fontColor: {r: 0.8726415, g: 0.92555803, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -906,8 +830,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -916,7 +840,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 10
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1144,7 +1068,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 589982450}
-  - {fileID: 419066383}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1728,9 +1651,9 @@ MonoBehaviour:
   stateStory: "You walk to the bunker, open the door, and walk down the dark passageway.
     The light slowly fades away,  and it becomes pitch black. You feel your way around.
     You wished you had a flashlight.\r\n\r\nAt the bottom of the stairs, there seems
-    to be a locked door. \r\nYou sense a faint glow coming from the left. You see
-    a faint green light coming from a second door at the end of another hallway.
-    It is a thick metal door with a bulky round window. \r"
+    to be a locked door. \r\nYou sense a faint glow coming from the left. You look
+    left and see a faint green light coming from a second door at the end of another
+    hallway. It is a thick metal door with a bulky round window. \r"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 688860032}
@@ -1861,7 +1784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20b2df1464032ca45992e4466c0fc5f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyText: {fileID: 419066384}
+  bodyText: {fileID: 589982451}
   currentState: {fileID: 1390522943}
 --- !u!4 &1309817573
 Transform:
@@ -2146,8 +2069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82450eca93df8de42ab78b6c6acd7b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateStory: "Part 1 \r\nThe Descent\r\n\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
-    1 to Start\r\n"
+  stateStory: "Part 1 \r\nThe Descent\r\n\r----\nPress 1 to Start\r\n"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1769412418}
@@ -2360,9 +2282,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateStory: "You walk into the storage shed. Clouds of dust catch rays of light
-    coming from the crumbling ceiling panels. The shed is a mess with lots of items
-    inside.\r\nYou are not sure what you can do here.   However, there is a locked
-    shelf  at the far end of the shack\r."
+    coming from the crumbling ceiling panels.The shed is a mess with lots of items
+    inside.\r\nYou are not sure what you can do here. However, there is a locked
+    shelf door at the far end of the shack\r"
   repeatingText: {fileID: 0}
   nextStates:
   - {fileID: 1019726960}
@@ -2598,7 +2520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateStory: "Decades into the climate crisis, humanity is trying to find a way
     to survive in the hot desolate world.\r\nMany have died over the decades. Survivors
-    have made shelters and villages out of the remnants of the past.\r\n\r\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
+    have made shelters and villages out of the remnants of the past.\r\n\r\r----\nPress
     1 to Continue\r"
   repeatingText: {fileID: 0}
   nextStates:
@@ -2713,7 +2635,7 @@ MonoBehaviour:
     area. Some say the force is evil. Others say that it will be our deliverance
     from this broken world. Your village has caught one of the deadly diseases that
     recently spread. Your younger brother, who is now your only family member, has
-    also caught the disease. You are desperate to find a cure. \r\n\r\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\r-----\nPress
+    also caught the disease. You are desperate to find a cure. \r\n\r\r----\nPress
     1 to Continue\r"
   repeatingText: {fileID: 0}
   nextStates:

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: FMetalDoorRepeat
   m_EditorClassIdentifier: 
   repeatingTxt:
-  - "The metal door has a thick round window. Below the windows is a sign that says:
-    Dangerous Chemical Chamber, HAZARDOUS CHEMICALS. You put your ear against the
-    door and hear an eerie hollow hum.\r"
+  - "The metal door has a thick round window. Below the windows is a sign that says:\n
+    Dangerous. Chemical Chamber, HAZARDOUS CHEMICALS.\nYou put your ear against the
+    door and hear an eerie hollow hum."

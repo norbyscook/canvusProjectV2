@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-
+using TMPro;
 namespace CanvasProject
 {
     public class MainScript : MonoBehaviour
     {
         // reference to text being displayed
-        [SerializeField] Text bodyText;
+        [SerializeField] TextMeshProUGUI bodyText;
         // reference to the starting state
         [SerializeField] StatesTemplate currentState;
 

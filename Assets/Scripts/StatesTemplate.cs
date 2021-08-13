@@ -113,7 +113,7 @@ namespace CanvasProject
                 for (int i = 0; i < nextStates.Length; i++)
                 {
                     // add next locations as options
-                    text += "\npress " + (i + 1) + " to go to " + nextStates[i].lable;
+                    text += "\npress " + (i + 1) + " to --> " + nextStates[i].lable;
                 }
             }
             return text;
@@ -143,7 +143,7 @@ namespace CanvasProject
         protected string LineBreak()
         {
             string text = "";
-            for(int i = 0; i < 100; i++)
+            for(int i = 0; i < 4; i++)
             {
                 text += "-";
             }
