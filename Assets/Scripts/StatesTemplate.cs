@@ -50,7 +50,7 @@ namespace CanvasProject
                 // return new state based on n
                 return nextStates[n - 1];
             }
-            // if not return current state
+            // if not return non changed current state
             return currentState;
         }
 
@@ -64,7 +64,7 @@ namespace CanvasProject
             {
                 return true;
             }
-                return false;
+            return false;
         }
         #endregion
 
@@ -110,10 +110,10 @@ namespace CanvasProject
             if (nextStates.Length != 0)
             {
                 // for each location the player gets to go to, add that option to the game text
-                for (int i = 0; i < nextStates.Length; i++)
+                for (int index = 0; index < nextStates.Length; index++)
                 {
                     // add next locations as options
-                    text += "\npress " + (i + 1) + " to --> " + nextStates[i].lable;
+                    text += "\npress " + (index + 1) + " to --> " + nextStates[index].lable;
                 }
             }
             return text;
@@ -143,7 +143,7 @@ namespace CanvasProject
         protected string LineBreak()
         {
             string text = "";
-            for(int i = 0; i < 4; i++)
+            for (int i = 0; i < 4; i++)
             {
                 text += "-";
             }
