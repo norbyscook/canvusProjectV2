@@ -43,6 +43,7 @@ namespace CanvasProject
         private StatesTemplate ChangeState(StatesTemplate currentState)
         {
             // for each next option for the game
+            // -1 because array index goes from 0 -> n - 1
             for (int index = 0; index <= nextStates.Length - 1; index++)
             {
                 // if player pushes the corresponding option
