@@ -42,29 +42,18 @@ namespace CanvasProject
         // check for user input and manage state
         private StatesTemplate ChangeState(StatesTemplate currentState)
         {
-            // get user input
-            string input = Input.inputString;
-            // if user input is valid, store input in n
-            if (InputValid(input, out int n))
+            // for each next option for the game
+            for (int index = 0; index <= nextStates.Length - 1; index++)
             {
-                // return new state based on n
-                return nextStates[n - 1];
+                // if player pushes the corresponding option
+                if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+                {
+                    // return new state
+                    return nextStates[index];
+                }
             }
             // if not return non changed current state
             return currentState;
-        }
-
-        // check to see if input is valid
-        // if so out input as a number 
-        private bool InputValid(string input, out int n)
-        {
-            n = 0;
-
-            if (int.TryParse((input), out n) && n <= nextStates.Length)
-            {
-                return true;
-            }
-            return false;
         }
         #endregion
 
